@@ -1,0 +1,32 @@
+@import '../../../styles/colors.scss';
+
+.feedback {
+
+}
+
+.titleWrap {
+    width: 100%;
+}
+
+.slideWrap {
+    padding: 1vw;
+    background-color: $back-green;
+    height: 100%;
+}
+
+.slide {
+    height: auto;
+}
+
+.slideWrap { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}

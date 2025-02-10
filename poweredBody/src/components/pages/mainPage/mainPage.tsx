@@ -1,4 +1,5 @@
 import CustomerPain from '../../blocks/customerPain/customerPain';
+import Feedback from '../../blocks/feedback/feedback';
 import MainBilboard from '../../blocks/mainBulboard/mainBilboard';
 import Footer from '../../layout/footer/footer';
 import Header from '../../layout/header/header';
@@ -15,6 +16,7 @@ function MainPage () {
                 {/* Сюда блоки */}
                 <MainBilboard></MainBilboard>
                 <CustomerPain></CustomerPain>
+                <Feedback></Feedback>
                 <Footer></Footer>
             </main>
         </div>
