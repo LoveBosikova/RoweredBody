@@ -23,10 +23,28 @@
 .contentWrap {
     position: relative;
     z-index: 1;
+    padding-top: 27.5vw;
+    background-image: linear-gradient(rgba(217, 217, 217, 0.1), rgba(211, 194, 168, 1));
 }
 
 .title {
-    font-size: $font-size-128;
-    @include jura-500-128;
+    @include jura-500-120;
     text-align: center;
+    text-transform: uppercase;
+}
+
+.btnWrap {
+    width: 24%;
+    margin-top: 1vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text {
+    @include jura-500-35;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 14vw;
+    padding-bottom: 7vw;
 }
