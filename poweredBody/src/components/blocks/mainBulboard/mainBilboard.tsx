@@ -9,6 +9,10 @@ function MainBilboard () {
             <div className={style.backImg}>
                 <img className={style.img} src={back} alt='' />
             </div>
+            <div className={style.contentWrap}>
+                <h1 className={style.title}>Тело в ресурсе</h1>
+
+            </div>
         </div>
     )
 }

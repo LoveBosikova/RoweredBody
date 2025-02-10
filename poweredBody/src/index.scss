@@ -1,17 +1,3 @@
-@font-face {
-  font-family: "Evolventa";
-  src: local("Evolventa Bold"),
-    local("Evolventa-Bold"),
-    url('../src/fonts/Evolventa-Bold.ttf') format("ttf");
-    // url("Lexend_Peta-webfont.woff") format("woff"),
-    // url("Lexend_Peta-webfont.svg") format("svg");
-  font-weight: bold;
-}
-
-body {
-  font-family: "Evolventa", sans-serif;
-}
-
 :root {
   width: 100%;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -19,8 +5,8 @@ body {
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #fff;
+  color: #747A56;
+  background-color: #D3C2A8;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -31,10 +17,9 @@ body {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #fff;
+  background-color: #D3C2A8;
 }
 
 h1, h2, h3, h4, h5, h6, p, label {
