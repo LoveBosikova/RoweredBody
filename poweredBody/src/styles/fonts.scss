@@ -56,6 +56,15 @@
 //     font-size: $font-size-111;
 // }
 
+@mixin jura-500-25 {
+    font-family: 'Jura', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 500;
+    font-size: $font-size-25;
+}
+
 @mixin jura-500-30 {
     font-family: 'Jura', sans-serif;
     font-optical-sizing: auto;
@@ -72,6 +81,15 @@
     line-height: normal;
     font-weight: 500;
     font-size: $font-size-35;
+}
+
+@mixin jura-500-61 {
+    font-family: 'Jura', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 500;
+    font-size: $font-size-61;
 }
 
 @mixin jura-500-120 {

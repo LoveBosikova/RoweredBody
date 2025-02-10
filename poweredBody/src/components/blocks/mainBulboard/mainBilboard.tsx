@@ -6,7 +6,7 @@ import style from './mainBilboard.module.scss';
 function MainBilboard () {
 
     return (
-        <div className={style.mainBilboard}>
+        <section className={style.mainBilboard}>
             <div className={style.backImg}>
                 <img className={style.img} src={back} alt='' />
             </div>
@@ -19,7 +19,7 @@ function MainBilboard () {
                     Тренировки, на которых женщины со мной укрепляют здоровье, тело и самооценку, без страданий и стресса
                 </p>
             </div>
-        </div>
+        </section>
     )
 }
 

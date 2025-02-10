@@ -1,0 +1,51 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/fonts.scss';
+
+.customerPain {
+    width: 100%;
+    max-width: 100%;
+}
+
+.contentWrap {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2vw;
+    margin-bottom: 2vw;
+    width: 93%;
+    background-color: $back-green;
+    border-radius: 10px;
+}
+
+.titleWrap {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.painWrap {
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    grid-column-gap: 14.2%;
+    padding-left: 5.6%;
+    padding-right: 2%;
+    margin-bottom: 2vw;
+}
+
+.pain {
+    @include jura-500-25;
+    width: 40%;
+    padding-bottom: 2.5vw;
+    color: $text-white;
+    line-height: 122%;
+}
+
+.btnWrap {
+    width: 24%;
+    margin-top: 7vw;
+    margin-left: auto;
+    margin-right: auto;
+}
