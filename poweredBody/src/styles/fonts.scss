@@ -1,4 +1,37 @@
 @import './variables.scss';
+    
+@font-face {
+    font-family: 'Jura';
+    src: url('./Jura/Jura-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    }
+
+@font-face {
+    font-family: 'Jura';
+    src: url('./Jura/Jura-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    }
+
+@font-face {
+        font-family: 'Jura';
+        src: url('./Jura/Jura-Medium.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        }
+
+@font-face {
+    font-family: 'Nunito';
+    src:    url('./Nunito/Nunito-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    }
+
 
 // Прмер подключения кастомного шрифта
 // @font-face {
