@@ -25,6 +25,62 @@ function Feedback () {
             grabCursor={true}
             centeredSlides={false}
             slidesPerView={3.5}
+            spaceBetween={5}
+            coverflowEffect={{
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: false,
+            }}
+            pagination={true}
+            className={style.swiper}
+        >
+            <SwiperSlide className={style.slide}>
+                <div className={style.slideWrap}>
+                    <img className={style.img} src={feedback1} alt="" />
+                </div>
+            </SwiperSlide>
+            <SwiperSlide className={style.slide}>
+                <div className={style.slideWrap}>
+                    <img className={style.img} src={feedback2} alt="" />
+                </div>
+            </SwiperSlide>
+            <SwiperSlide className={style.slide}>
+                <div className={style.slideWrap}>
+                    <img className={style.img} src={feedback3} alt="" />
+                </div>
+            </SwiperSlide>
+            <SwiperSlide className={style.slide}>
+                <div className={style.slideWrap}>
+                    <img className={style.img} src={feedback4} alt="" />
+                </div>
+            </SwiperSlide>
+            <SwiperSlide className={style.slide}>
+                <div className={style.slideWrap}>
+                    <img className={style.img} src={feedback5} alt="" />
+                </div>
+            </SwiperSlide>
+            <SwiperSlide className={style.slide}>
+                <div className={style.slideWrap}>
+                    <img className={style.img} src={feedback6} alt="" />
+                </div>
+            </SwiperSlide>
+            <SwiperSlide className={style.slide}>
+                <div className={style.slideWrap}>
+                    <img className={style.img} src={feedback7} alt="" />
+                </div>
+            </SwiperSlide>
+        </Swiper>
+            </div>
+            <div className={style.swiperWrap}>
+            <Swiper
+            effect={'coverflow'}
+            grabCursor={true}
+            centeredSlides={false}
+            slidesPerView={3.5}
+            slidesOffsetBefore={-200}
+            spaceBetween={5}
             coverflowEffect={{
                 rotate: 50,
                 stretch: 0,
