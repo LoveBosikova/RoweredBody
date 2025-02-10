@@ -1,4 +1,4 @@
-import { CUSTOMER_PAINS } from '../../../utils/pains';
+import { CUSTOMER_PAINS } from '../../../utils/constants';
 import Button from '../../ui/button/button';
 import H3 from '../../ui/h3/h3';
 import style from './customerPain.module.scss';
