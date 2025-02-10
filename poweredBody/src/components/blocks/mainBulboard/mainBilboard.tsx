@@ -4,6 +4,7 @@ function MainBilboard () {
 
     return (
         <div className={style.mainBilboard}>
+            
         </div>
     )
 }
