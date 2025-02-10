@@ -1,0 +1,7 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/fonts.scss';
+
+.h2 {
+    @include jura-500-80;
+    color: $text-white;
+}
