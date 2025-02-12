@@ -2,6 +2,7 @@ import CustomerPain from '../../blocks/customerPain/customerPain';
 import Feedback from '../../blocks/feedback/feedback';
 import MainBilboard from '../../blocks/mainBulboard/mainBilboard';
 import ResultsBlock from '../../blocks/results/ResultsBlock';
+import WhyTry from '../../blocks/whyTry/whyTry';
 import AboutMe from '../../blocks/aboutMe/aboutMe';
 import Footer from '../../layout/footer/footer';
 import Header from '../../layout/header/header';
@@ -20,6 +21,7 @@ function MainPage () {
                 <AboutMe></AboutMe>
                 <CustomerPain></CustomerPain>
                 <ResultsBlock></ResultsBlock>
+                <WhyTry></WhyTry>
                 <Feedback></Feedback>
                 <Footer></Footer>
             </main>

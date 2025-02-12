@@ -1,0 +1,30 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/fonts.scss';
+@import '../../../styles/variables.scss';
+
+.aboutMe {
+    margin-left: 4vw;
+    margin-bottom: 7vw;
+    margin-right: 1vw;
+}
+
+.info {
+    display: flex;
+}
+
+.text {
+    @include nunito-400-30;
+    margin-right: 4vw;
+    margin-top: 2vw;
+}
+
+.paragraph {
+    margin-bottom: 2.5vw;
+    line-height: 1.4;
+}
+
+.ctatext {
+    text-align: center;
+    margin-top: 4vw;
+    @include nunito-400-30;
+}
