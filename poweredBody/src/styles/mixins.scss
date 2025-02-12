@@ -1,8 +1,8 @@
 @import 'fonts.scss';
 
-// Миксин для шрифта Jura (Regular, Medium и SemiBold)
-@mixin jura-font($weight: 400, $size: 16px) {
-    font-family: 'Jura', sans-serif;
+// Миксин для шрифта Nunito (Regular, Medium и SemiBold)
+@mixin nunito-font($weight: 400, $size: 16px) {
+    font-family: 'Nunito', sans-serif;
     font-weight: $weight;
     font-size: $size;
     font-style: normal;
