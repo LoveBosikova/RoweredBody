@@ -1,4 +1,3 @@
-
 import result1 from '../../../assets/results/result-1.png';
 import result2 from '../../../assets/results/result-2.png';
 import result3 from '../../../assets/results/result-3.png';
@@ -15,7 +14,8 @@ const ResultsBlock: React.FC = () => {
           <img src={result1} alt="Подтянутое тело" className={styles.image} />
           <h3 className={styles.imageTitle}>Подтянутое тело</h3>
           <p className={styles.description}>
-            Спортивное тело, плоский живот, подтянутые бедра и упругие ягодицы. Тонус кожи без целлюлита. Функциональное тело, способное выдержать нагрузку.
+            Спортивное тело, плоский живот, подтянутые бедра и упругие ягодицы. 
+            {"\n"}Тонус кожи без целлюлита. Функциональное тело, способное выдержать нагрузку.
           </p>
         </div>
         <div className={styles.imageItem}>
@@ -36,7 +36,7 @@ const ResultsBlock: React.FC = () => {
           <img src={result4} alt="Уровень энергии" className={styles.image} />
           <h3 className={styles.imageTitle}>Уровень энергии</h3>
           <p className={styles.description}>
-            Появляются радость жизни и свобода движений. Увеличивается сила и выносливость. Улучшается настроение, поднимается самооценка и уверенность в себе.
+            Появляются радость жизни и свобода движений.{"\n"} Увеличивается сила и выносливость. Улучшается настроение, поднимается самооценка и уверенность в себе.
           </p>
         </div>
       </div>

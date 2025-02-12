@@ -1,0 +1,78 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/variables.scss';
+@import '../../../styles/fonts.scss';
+
+.contactBlock {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactsImage {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+}
+
+.contentWrapper {
+  position: absolute;
+  top: 5vw; 
+  right: 5vw; 
+  max-width: 40%; 
+  text-align: left; 
+  z-index: 10; 
+}
+
+.title {
+  @include nunito-500-80;
+  color: $text-white;
+  margin-bottom: 2vw;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;  
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  @include nunito-500-25;
+  gap: 1vw;  
+  color: $text-white;
+}
+
+.contactIcon {
+  width: 4vw;  
+  height: 4vw;  
+  object-fit: contain;  
+}
+
+
+.leftIcon {
+  position: absolute;
+  top: 2vw;  
+  left: 2vw;  
+  z-index: 10; 
+}
+
+.icon {
+  width: 5vw;  
+  height: 5vw;  
+  object-fit: contain;
+}

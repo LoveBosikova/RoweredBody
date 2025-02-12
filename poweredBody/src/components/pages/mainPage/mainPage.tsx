@@ -4,11 +4,13 @@ import MainBilboard from '../../blocks/mainBulboard/mainBilboard';
 import ResultsBlock from '../../blocks/results/ResultsBlock';
 import WhyTry from '../../blocks/whyTry/whyTry';
 import AboutMe from '../../blocks/aboutMe/aboutMe';
+import ContactBlock from '../../blocks/contacts/ContactBlock';
 import Footer from '../../layout/footer/footer';
 import Header from '../../layout/header/header';
 import NavBar from '../../layout/navbar/navbar';
 
 import style from './mainPage.module.scss';
+
 
 function MainPage () {
     return (
@@ -23,6 +25,7 @@ function MainPage () {
                 <ResultsBlock></ResultsBlock>
                 <WhyTry></WhyTry>
                 <Feedback></Feedback>
+                <ContactBlock></ContactBlock>
                 <Footer></Footer>
             </main>
         </div>
