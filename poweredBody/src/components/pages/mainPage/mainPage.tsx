@@ -2,6 +2,7 @@ import CustomerPain from '../../blocks/customerPain/customerPain';
 import Feedback from '../../blocks/feedback/feedback';
 import MainBilboard from '../../blocks/mainBulboard/mainBilboard';
 import ResultsBlock from '../../blocks/results/ResultsBlock';
+import AboutMe from '../../blocks/aboutMe/aboutMe';
 import Footer from '../../layout/footer/footer';
 import Header from '../../layout/header/header';
 import NavBar from '../../layout/navbar/navbar';
@@ -16,6 +17,7 @@ function MainPage () {
                 <Header></Header>
                 {/* Сюда блоки */}
                 <MainBilboard></MainBilboard>
+                <AboutMe></AboutMe>
                 <CustomerPain></CustomerPain>
                 <ResultsBlock></ResultsBlock>
                 <Feedback></Feedback>
