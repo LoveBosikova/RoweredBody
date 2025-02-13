@@ -11,6 +11,7 @@ import Header from '../../layout/header/header';
 import NavBar from '../../layout/navbar/navbar';
 
 import style from './mainPage.module.scss';
+import Programs from '../../blocks/programs/Programs';
 
 
 function MainPage () {
@@ -26,6 +27,7 @@ function MainPage () {
                 <ResultsBlock></ResultsBlock>
                 <WhyTry></WhyTry>
                 <VideoBlock></VideoBlock>
+                <Programs></Programs>
                 <Feedback></Feedback>
                 <ContactBlock></ContactBlock>
                 <Footer></Footer>

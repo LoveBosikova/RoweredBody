@@ -1,11 +1,10 @@
-
 import contacts from "../../../assets/contacts/contacts.png";
-import Instagram from "../../../assets/contacts/Instagram.svg";
+import instagram from "../../../assets/contacts/Instagram.svg";
 import telegram from "../../../assets/contacts/telegram.svg";
 import groups from "../../../assets/contacts/groups.svg";
-import Icon from "../../../assets/stars-fond.svg";
+import icon from "../../../assets/stars-fond.svg";
 
-import styles from './ContactBlock.module.scss'; 
+import styles from './ContactBlock.module.scss';
 
 const ContactBlock: React.FC = () => {
   return (
@@ -16,24 +15,24 @@ const ContactBlock: React.FC = () => {
       
       <div className={styles.contentWrapper}>
         <h2 className={styles.title}>Контакты</h2>
-        <ul className={styles.contactList}>
-          <li className={styles.contactItem}>
-            <img src={Instagram} alt="Instagram" className={styles.contactIcon} />
+        <div className={styles.contactList}>
+          <p className={styles.contactItem}>
+            <img src={instagram} alt="Instagram" className={styles.contactIcon} />
             Instagram
-          </li>
-          <li className={styles.contactItem}>
+          </p>
+          <p className={styles.contactItem}>
             <img src={telegram} alt="Telegram" className={styles.contactIcon} />
             Telegram
-          </li>
-          <li className={styles.contactItem}>
+          </p>
+          <p className={styles.contactItem}>
             <img src={groups} alt="Telegram Group" className={styles.contactIcon} />
             Telegram-group
-          </li>
-        </ul>
+          </p>
+        </div>
       </div>
 
       <div className={styles.leftIcon}>
-        <img src={Icon} alt="Icon" className={styles.icon} />
+        <img src={icon} alt="Icon" className={styles.icon} />
       </div>
     </section>
   );

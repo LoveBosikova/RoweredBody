@@ -5,7 +5,9 @@
 .contactBlock {
   position: relative;
   width: 100%;
-  height: 100vh; 
+  max-width: 100%;
+  display: flex; 
+  flex-direction: column; 
 }
 
 .backgroundImage {
@@ -13,25 +15,23 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: 0; 
 }
 
 .contactsImage {
   width: 100%;
-  height: 100%; 
-  object-fit: cover; 
+  height: auto;  
+  object-fit: cover;  
 }
 
 .contentWrapper {
-  position: absolute;
-  top: 5vw; 
-  right: 5vw; 
-  max-width: 40%; 
-  text-align: left; 
-  z-index: 10; 
+  position: relative;
+  z-index: 1;  
+  width: 50%;  
+  padding-right: 5vw;  
+  padding-top: 10vw; 
+  padding-left: 70vw;
+  text-align: left;
 }
 
 .title {
@@ -43,36 +43,34 @@
 .contactList {
   display: flex;
   flex-direction: column;
-  gap: 1vw;  
-  list-style: none;
+  gap: 1vw;
   padding: 0;
   margin: 0;
 }
 
 .contactItem {
+  @include nunito-500-25;
   display: flex;
   align-items: center;
-  @include nunito-500-25;
-  gap: 1vw;  
+  gap: 1vw;
   color: $text-white;
 }
 
 .contactIcon {
-  width: 4vw;  
-  height: 4vw;  
-  object-fit: contain;  
+  width: 4vw;
+  height: 4vw;
+  object-fit: contain;
 }
-
 
 .leftIcon {
   position: absolute;
-  top: 2vw;  
-  left: 2vw;  
-  z-index: 10; 
+  top: 2vw;
+  left: 2vw;
+  z-index: 10;
 }
 
 .icon {
-  width: 5vw;  
-  height: 5vw;  
+  width: 5vw;
+  height: 5vw;
   object-fit: contain;
 }

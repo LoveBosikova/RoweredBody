@@ -1,0 +1,36 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/variables.scss';
+@import '../../../styles/fonts.scss';
+
+.imageItem {
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;  
+    width: 22vw; 
+    text-align: left;
+  }
+  
+  .image {
+    width: 100%; 
+    height: auto;  
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .imageTitle {
+    @include nunito-500-25;
+    margin-top: 1vw;
+    text-align: left;
+  }
+  
+  .description {
+    @include nunito-400-21;
+    margin-top: 3vw;
+    min-height: 5vw;
+    text-align: left;
+    flex-grow: 1;
+    line-height: 1.7;
+    white-space: pre-line;
+    padding-bottom: 13vw;
+  }
+  
