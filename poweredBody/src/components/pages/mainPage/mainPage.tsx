@@ -5,11 +5,14 @@ import ResultsBlock from '../../blocks/results/ResultsBlock';
 import WhyTry from '../../blocks/whyTry/whyTry';
 import VideoBlock from '../../blocks/videoBlock/videoBlock';
 import AboutMe from '../../blocks/aboutMe/aboutMe';
+import ContactBlock from '../../blocks/contacts/ContactBlock';
 import Footer from '../../layout/footer/footer';
 import Header from '../../layout/header/header';
 import NavBar from '../../layout/navbar/navbar';
 
 import style from './mainPage.module.scss';
+import Programs from '../../blocks/programs/Programs';
+
 
 function MainPage () {
     return (
@@ -24,7 +27,9 @@ function MainPage () {
                 <ResultsBlock></ResultsBlock>
                 <WhyTry></WhyTry>
                 <VideoBlock></VideoBlock>
+                <Programs></Programs>
                 <Feedback></Feedback>
+                <ContactBlock></ContactBlock>
                 <Footer></Footer>
             </main>
         </div>
