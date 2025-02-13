@@ -3,6 +3,7 @@ import Feedback from '../../blocks/feedback/feedback';
 import MainBilboard from '../../blocks/mainBulboard/mainBilboard';
 import ResultsBlock from '../../blocks/results/ResultsBlock';
 import WhyTry from '../../blocks/whyTry/whyTry';
+import VideoBlock from '../../blocks/videoBlock/videoBlock';
 import AboutMe from '../../blocks/aboutMe/aboutMe';
 import ContactBlock from '../../blocks/contacts/ContactBlock';
 import Footer from '../../layout/footer/footer';
@@ -24,6 +25,7 @@ function MainPage () {
                 <CustomerPain></CustomerPain>
                 <ResultsBlock></ResultsBlock>
                 <WhyTry></WhyTry>
+                <VideoBlock></VideoBlock>
                 <Feedback></Feedback>
                 <ContactBlock></ContactBlock>
                 <Footer></Footer>
