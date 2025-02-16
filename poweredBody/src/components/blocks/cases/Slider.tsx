@@ -34,12 +34,12 @@ const Slider = ({ slides }) => {
                         <div className={style.photos}>
                             <div className="before-section">
                                 <p className={style.when}>До</p>
-                                <img src={slide.imageBefore} alt="Before" className="slide-image" />
+                                <img src={slide.imageBefore} alt="Before" className={style.image} />
                                 
                             </div>
                             <div className="after-section">
                                 <p className={style.when}>После</p>
-                                <img src={slide.imageAfter} alt="After" className="slide-image" />
+                                <img src={slide.imageAfter} alt="After" className={style.image} />
                             </div>
                         <div className={style.slideText}>
                         <p className={style.name}>{slide.name}</p>

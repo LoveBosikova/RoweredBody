@@ -67,6 +67,15 @@
     font-size: $font-size-25;
 }
 
+@mixin nunito-400-27 {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: $font-size-27;
+}
+
 @mixin nunito-400-30 {
     font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
@@ -74,6 +83,15 @@
     line-height: normal;
     font-weight: 400;
     font-size: $font-size-30;
+}
+
+@mixin nunito-400-35 {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: $font-size-35;
 }
 
 @mixin nunito-500-25 {

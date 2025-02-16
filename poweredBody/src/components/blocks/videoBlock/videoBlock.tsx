@@ -11,8 +11,8 @@ const VideoBlock = () => {
                 Ваш браузер не поддерживает видео.
             </video>
             <div className={style.btn}>
-        <Button text="Бесплатная тренировка" />
-        </div>
+            <Button text="Бесплатная тренировка" />
+            </div>
         </div>
     );
 }

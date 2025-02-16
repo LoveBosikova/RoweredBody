@@ -4,7 +4,7 @@
 
 .aboutMe {
     margin-left: 4vw;
-    margin-bottom: 7vw;
+    margin-bottom: 120px;
     margin-right: 1vw;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .text {
-    @include nunito-400-30;
+    @include nunito-400-27;
     margin-right: 4vw;
     margin-top: 2vw;
 }
@@ -28,3 +28,19 @@
     margin-top: 4vw;
     @include nunito-400-30;
 }
+
+img {
+    width: 40%;
+}
+
+
+@media (max-width: 560px) {
+    .text {
+        @include nunito-400-30;
+    }
+
+    .ctatext {
+        @include nunito-400-35;
+    }
+
+};

@@ -54,30 +54,45 @@
     position: absolute;
     cursor: pointer;
     z-index: 10;
-    bottom: 0px;
+    bottom: 7px;
     right: 170px;
+    width: 50px;
+    height: 50px;
+
+    img {
+        width: 50px;
+    }
 }
 
 .navigationButtonRight {
     position: absolute;
     cursor: pointer;
     z-index: 10;
-    bottom: 0px;
+    bottom: 2px;
     right: 100px;
+
+    img {
+        width: 50px;
+    }
 }
 
 
-
-
-.slide-image {
-    width: 100%; /* Сделать изображение адаптивным */
-    max-width: 400px; /* Ограничение максимальной ширины */
-    height: auto; /* Адаптивная высота */
-    border-radius: 5px; 
+.image {
+    width: 100%;
 }
-
-
 
 li {
     margin: 5px 0; 
 }
+
+
+
+// .slide-image {
+//     width: 100%; /* Сделать изображение адаптивным */
+//     max-width: 400px; /* Ограничение максимальной ширины */
+//     height: auto; /* Адаптивная высота */
+//     border-radius: 5px; 
+// }
+
+
+

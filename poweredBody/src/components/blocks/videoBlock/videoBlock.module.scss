@@ -10,3 +10,10 @@
     width: 400px;
     margin-top: 60px;
 }
+
+
+@media (max-width: 800px) {
+    .videoContainer {
+        display: none;
+    }
+};
