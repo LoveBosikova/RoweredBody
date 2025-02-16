@@ -1,4 +1,12 @@
-.videoContainer {margin-bottom: 50px;}
+.videoContainer {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
 
 .btn {
     width: 40%;
