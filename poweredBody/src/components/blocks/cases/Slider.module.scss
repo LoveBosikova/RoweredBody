@@ -1,0 +1,83 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/fonts.scss';
+@import '../../../styles/variables.scss';
+
+.slidecontent {
+    display: flex;
+    width: 83%;
+    padding-left: 10vw;
+    text-align: left;
+    margin: 20px; 
+    border: 1px solid #ccc;
+    padding: 35px; 
+    border-radius: 10px; 
+    background-color: $back-green; 
+    @include nunito-400-21;
+    color: $white-text;
+}
+
+.when {@include nunito-400-25; margin-bottom: 10px;}
+
+.photos {
+    display: flex;
+    gap: 10px;
+}
+
+.slideText {
+    margin-left: 60px;
+}
+
+.name {
+    text-align: center;
+    @include nunito-400-30;
+}
+
+.caseHeading {
+    background-color: $button-brown;
+    border-radius: 27px;
+    width: 370px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include nunito-400-25;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.list {
+    list-style-type: disc;
+}
+
+
+.navigationButtonLeft {
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    bottom: 0px;
+    right: 170px;
+}
+
+.navigationButtonRight {
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    bottom: 0px;
+    right: 100px;
+}
+
+
+
+
+.slide-image {
+    width: 100%; /* Сделать изображение адаптивным */
+    max-width: 400px; /* Ограничение максимальной ширины */
+    height: auto; /* Адаптивная высота */
+    border-radius: 5px; 
+}
+
+
+
+li {
+    margin: 5px 0; 
+}
