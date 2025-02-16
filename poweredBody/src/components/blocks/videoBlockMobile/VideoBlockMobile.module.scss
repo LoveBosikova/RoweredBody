@@ -1,14 +1,8 @@
-
-.videoContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+.videoContainer {margin-bottom: 50px;}
 
 .btn {
-    width: 400px;
-    margin-top: 60px;
+    width: 40%;
+    margin: 30px auto;
 }
 
 
@@ -16,4 +10,9 @@
     .videoContainer {
         display: none;
     }
+    .btn {width: 200px;}
+};
+
+@media (min-width: 800px) {
+    .btn {width: 200px;}
 };

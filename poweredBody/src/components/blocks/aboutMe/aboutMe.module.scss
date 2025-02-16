@@ -21,3 +21,39 @@
     margin-bottom: 2.5vw;
     line-height: 1.4;
 }
+
+img {
+    width: 40%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 800px) {
+    .text {
+        @include nunito-400-35;
+    }
+
+    .ctatext {
+        @include nunito-400-40;
+    }
+};
+
+@media (max-width: 560px) {
+    .text {
+        @include nunito-400-35;
+    }
+
+    .ctatext {
+        @include nunito-400-40;
+    }
+};
+
+@media (max-width: 460px) {
+    .text {
+        @include nunito-400-50;
+    }
+
+    .ctatext {
+        @include nunito-500-61;
+    }
+};

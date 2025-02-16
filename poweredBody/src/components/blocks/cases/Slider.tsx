@@ -48,9 +48,10 @@ const Slider = ({ slides }) => {
                                 <p className={style.when}>После</p>
                                 <img src={slide.imageAfter} alt="After" className={style.image} />
                             </div>
+                        </div>
                         <div className={style.slideText}>
-                        <p className={style.name}>{slide.name}</p>
-                        <p className={style.caseHeading}>{slide.titleBefore}</p>
+                                <p className={style.name}>{slide.name}</p>
+                                <p className={style.caseHeading}>{slide.titleBefore}</p>
                                 <ul className={style.list}>
                                     {slide.textBefore.map((text, idx) => (
                                         <li key={idx}>{text}</li>
@@ -62,7 +63,6 @@ const Slider = ({ slides }) => {
                                         <li key={idx}>{text}</li>
                                     ))}
                                 </ul>
-                        </div>
                         </div>
                     </div>
                 </SwiperSlide>

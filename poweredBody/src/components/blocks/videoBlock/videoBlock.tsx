@@ -6,10 +6,12 @@ import training from '../../../assets/videos/training.mp4';
 const VideoBlock = () => {
     return (
         <div className={style.videoContainer}>
+            <div className={style.video}>
             <video width="800" controls>
                 <source src={training} type="video/mp4" />
                 Ваш браузер не поддерживает видео.
             </video>
+            </div>
             <div className={style.btn}>
             <Button text="Бесплатная тренировка" />
             </div>

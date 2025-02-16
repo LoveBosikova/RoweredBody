@@ -116,12 +116,47 @@ li {
     .caseHeading, .name, .when {@include nunito-400-35;}
     .navigationButtonLeft {bottom: 20px; right: 90px;}
     .navigationButtonRight {bottom: 15px; right: 20px;}
+    .caseHeading {width: 300px;}
 }
 
 @media (max-width: 880px) {
     .navigationButtonLeft {bottom: 30px; right: 90px;}
     .navigationButtonRight {bottom: 25px; right: 20px;}
-    .slideText {width: 50%;}
+}
+
+@media (max-width: 880px) {
+    .navigationButtonLeft {bottom: 30px; right: 90px;}
+    .navigationButtonRight {bottom: 25px; right: 20px;}
+    .caseHeading {
+        width: 250px; 
+        margin-top: 30px;
+        @include nunito-400-35;
+    }
+    //.slideText {width: 40%;}
+    .slidecontent {
+        flex-wrap: wrap;
+        @include nunito-400-35;
+    }
+    .name, .caseHeading {@include nunito-400-40;}
+}
+
+@media (max-width: 500px) {
+    .slidecontent {
+        @include nunito-400-40;
+    }
+    .name, .caseHeading {@include nunito-400-45;}
+    .slideText {margin-left: 20px;}
+}
+
+@media (max-width: 420px) {
+    .slidecontent {
+        @include nunito-500-61;
+    }
+    .name, .caseHeading {@include nunito-500-80;}
+    .caseHeading {width: 250px;}
+    .slideText {margin-left: 0px;}
+    .navigationButtonLeft {bottom: 5px; right: 90px;}
+    .navigationButtonRight {bottom: 0px; right: 20px;}
 }
 
 
