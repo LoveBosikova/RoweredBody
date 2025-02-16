@@ -5,6 +5,7 @@ import ResultsBlock from '../../blocks/results/ResultsBlock';
 import Cases1 from '../../blocks/cases/Cases1';
 import WhyTry from '../../blocks/whyTry/whyTry';
 import VideoBlock from '../../blocks/videoBlock/videoBlock';
+import VideoBlockMobile from '../../blocks/videoBlockMobile/VideoBlockMobile';
 import AboutMe from '../../blocks/aboutMe/aboutMe';
 import ContactBlock from '../../blocks/contacts/ContactBlock';
 import Footer from '../../layout/footer/footer';
@@ -29,6 +30,7 @@ function MainPage () {
                 <Cases1></Cases1>
                 <WhyTry></WhyTry>
                 <VideoBlock></VideoBlock>
+                <VideoBlockMobile></VideoBlockMobile>
                 <Programs></Programs>
                 <Feedback></Feedback>
                 <ContactBlock></ContactBlock>
