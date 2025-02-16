@@ -1,4 +1,5 @@
 import style from './videoBlock.module.scss'; 
+import Button from '../../ui/button/button'; 
 
 import training from '../../../assets/videos/training.mp4'; 
 
@@ -9,6 +10,9 @@ const VideoBlock = () => {
                 <source src={training} type="video/mp4" />
                 Ваш браузер не поддерживает видео.
             </video>
+            <div className={style.btn}>
+        <Button text="Бесплатная тренировка" />
+        </div>
         </div>
     );
 }

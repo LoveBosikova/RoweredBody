@@ -2,6 +2,7 @@ import CustomerPain from '../../blocks/customerPain/customerPain';
 import Feedback from '../../blocks/feedback/feedback';
 import MainBilboard from '../../blocks/mainBulboard/mainBilboard';
 import ResultsBlock from '../../blocks/results/ResultsBlock';
+import Cases1 from '../../blocks/cases/Cases1';
 import WhyTry from '../../blocks/whyTry/whyTry';
 import VideoBlock from '../../blocks/videoBlock/videoBlock';
 import AboutMe from '../../blocks/aboutMe/aboutMe';
@@ -25,6 +26,7 @@ function MainPage () {
                 <AboutMe></AboutMe>
                 <CustomerPain></CustomerPain>
                 <ResultsBlock></ResultsBlock>
+                <Cases1></Cases1>
                 <WhyTry></WhyTry>
                 <VideoBlock></VideoBlock>
                 <Programs></Programs>
