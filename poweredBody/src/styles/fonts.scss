@@ -1,35 +1,20 @@
 @import './variables.scss';
+
+@font-face {
+    font-family: 'Nunito', sans-serif;
+    src: url('/Nunito/Nunito-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    }
     
 @font-face {
-    font-family: 'Jura', sans-serif;
-    src: url('/Jura/Jura-Regular.ttf') format('truetype');
-        // url('/RoweredBody/poweredBody/public/Jura/Jura-Regular.woff2') format('woff2'),
-        // url('/RoweredBody/poweredBody/public/Jura/Jura-Regular.woff') format('woff');
+    font-family: 'Nunito', sans-serif;
+    src: url('/Nunito/Nunito-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: 400;
     font-display: swap;
     }
-
-// @font-face {
-//     font-family: 'Jura';
-//     src: url('/RoweredBody/poweredBody/public/Jura/Jura-Medium.woff2') format('woff2'),
-//         url('/RoweredBody/poweredBody/public/Jura/Jura-Medium.woff') format('woff'),
-//         url('/RoweredBody/poweredBody/public/Jura/Jura-Medium.ttf') format('truetype');
-//     font-style: normal;
-//     font-weight: 500;
-//     font-display: swap;
-//     }
-
-// @font-face {
-//         font-family: 'Jura';
-//         src: url('/RoweredBody/poweredBody/public/Jura/Jura-Medium.woff2') format('woff2'),
-//         url('/RoweredBody/poweredBody/public/Jura/Jura-Medium.woff') format('woff'),
-//         url('/RoweredBody/poweredBody/public/Jura/Jura-Medium.ttf') format('truetype');
-//         font-style: normal;
-//         font-weight: 600;
-//         font-display: swap;
-//         }
-
 
 
 // Прмер подключения кастомного шрифта
@@ -55,8 +40,44 @@
 //     font-size: $font-size-111;
 // }
 
-@mixin jura-500-25 {
-    font-family: 'Jura', sans-serif;
+@mixin nunito-400-21 {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: $font-size-21;
+}
+
+@mixin nunito-300-25 {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: $font-size-25;
+}
+
+@mixin nunito-400-25 {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: $font-size-25;
+}
+
+@mixin nunito-400-30 {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: $font-size-30;
+}
+
+@mixin nunito-500-25 {
+    font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: normal;
@@ -64,8 +85,8 @@
     font-size: $font-size-25;
 }
 
-@mixin jura-500-30 {
-    font-family: 'Jura', sans-serif;
+@mixin nunito-500-30 {
+    font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: normal;
@@ -73,8 +94,8 @@
     font-size: $font-size-30;
 }
 
-@mixin jura-500-35 {
-    font-family: 'Jura', sans-serif;
+@mixin nunito-500-35 {
+    font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: normal;
@@ -82,8 +103,8 @@
     font-size: $font-size-35;
 }
 
-@mixin jura-500-61 {
-    font-family: 'Jura', sans-serif;
+@mixin nunito-500-61 {
+    font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: normal;
@@ -91,8 +112,8 @@
     font-size: $font-size-61;
 }
 
-@mixin jura-500-80 {
-    font-family: 'Jura', sans-serif;
+@mixin nunito-500-80 {
+    font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: normal;
@@ -100,8 +121,8 @@
     font-size: $font-size-80;
 }
 
-@mixin jura-500-120 {
-    font-family: 'Jura', sans-serif;
+@mixin nunito-500-120 {
+    font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: normal;
