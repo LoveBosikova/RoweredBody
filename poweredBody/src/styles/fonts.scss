@@ -183,3 +183,12 @@
     font-weight: 500;
     font-size: $font-size-120;
 }
+
+@mixin nunito-500-200 {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 500;
+    font-size: $font-size-200;
+}

@@ -19,3 +19,14 @@
     color: $text-white;
     white-space: nowrap;
 }
+
+@media (max-width: 767px) {
+    .button {
+        padding-top: 1.5vw;
+        padding-bottom: 1.5vw;
+    }
+
+    .text {
+        @include nunito-500-61;
+    }
+}
