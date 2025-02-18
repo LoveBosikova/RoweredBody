@@ -5,7 +5,7 @@ import style from './customerPain.module.scss';
 
 function CustomerPain () {
     return (
-        <section className={style.customerPain}>
+        <section className={style.customerPain} id='help'>
             <article className={style.contentWrap}>
                 <div className={style.titleWrap}>
                     <H3 text={'Эти тренировки точно для вас, если вы:'}></H3>

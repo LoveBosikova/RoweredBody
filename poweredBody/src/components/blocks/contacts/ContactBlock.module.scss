@@ -27,15 +27,15 @@
 .contentWrapper {
   position: relative;
   z-index: 1;  
-  width: 50%;  
+  width: 25%;  
   padding-right: 5vw;  
   padding-top: 10vw; 
-  padding-left: 70vw;
+  margin-left: auto;
   text-align: left;
 }
 
 .title {
-  @include nunito-500-80;
+  @include nunito-300-80;
   color: $text-white;
   margin-bottom: 2vw;
 }
@@ -49,11 +49,17 @@
 }
 
 .contactItem {
-  @include nunito-500-25;
+  @include nunito-300-25;
   display: flex;
   align-items: center;
   gap: 1vw;
   color: $text-white;
+  cursor: pointer;  
+
+  
+  &:hover {
+    color: $main-back; 
+  }
 }
 
 .contactIcon {
@@ -74,3 +80,5 @@
   height: 5vw;
   object-fit: contain;
 }
+
+

@@ -15,7 +15,7 @@
 }
 
 .text {
-    @include nunito-500-30;
+    @include nunito-300-30;
     color: $text-white;
     white-space: nowrap;
 }
@@ -27,6 +27,6 @@
     }
 
     .text {
-        @include nunito-500-61;
+        @include nunito-300-61;
     }
 }

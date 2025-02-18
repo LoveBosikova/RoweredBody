@@ -12,7 +12,7 @@
     font-family: 'Nunito', sans-serif;
     src: url('/Nunito/Nunito-Regular.ttf') format('truetype');
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-display: swap;
     }
 
@@ -40,12 +40,12 @@
 //     font-size: $font-size-111;
 // }
 
-@mixin nunito-400-21 {
+@mixin nunito-300-21 {
     font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: $font-size-21;
 }
 
@@ -54,34 +54,16 @@
     font-optical-sizing: auto;
     font-style: normal;
     line-height: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: $font-size-25;
 }
 
-@mixin nunito-400-25 {
+@mixin nunito-300-30 {
     font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: normal;
-    font-weight: 400;
-    font-size: $font-size-25;
-}
-
-@mixin nunito-400-27 {
-    font-family: 'Nunito', sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    line-height: normal;
-    font-weight: 400;
-    font-size: $font-size-27;
-}
-
-@mixin nunito-400-30 {
-    font-family: 'Nunito', sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    line-height: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: $font-size-30;
 }
 
@@ -121,39 +103,57 @@
     font-size: $font-size-50;
 }
 
-@mixin nunito-500-25 {
+@mixin nunito-300-35 {
     font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: normal;
-    font-weight: 500;
-    font-size: $font-size-25;
-}
-
-@mixin nunito-500-30 {
-    font-family: 'Nunito', sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    line-height: normal;
-    font-weight: 500;
-    font-size: $font-size-30;
-}
-
-@mixin nunito-500-35 {
-    font-family: 'Nunito', sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    line-height: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: $font-size-35;
 }
 
-@mixin nunito-500-61 {
+@mixin nunito-400-40 {
     font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: normal;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: $font-size-40;
+}
+
+@mixin nunito-400-45 {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: $font-size-45;
+}
+
+@mixin nunito-400-50 {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: $font-size-50;
+}
+
+@mixin nunito-300-35 {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 300;
+    font-size: $font-size-35;
+}
+
+@mixin nunito-300-61 {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 300;
     font-size: $font-size-61;
 }
 
@@ -166,29 +166,38 @@
     font-size: $font-size-70;
 }
 
-@mixin nunito-500-80 {
+@mixin nunito-500-70 {
     font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: normal;
     font-weight: 500;
+    font-size: $font-size-70;
+}
+
+@mixin nunito-300-80 {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 300;
     font-size: $font-size-80;
 }
 
-@mixin nunito-500-120 {
+@mixin nunito-300-120 {
     font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: $font-size-120;
 }
 
-@mixin nunito-500-200 {
+@mixin nunito-300-200 {
     font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: $font-size-200;
 }

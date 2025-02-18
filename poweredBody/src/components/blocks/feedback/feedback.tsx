@@ -15,7 +15,7 @@ import style from './feedback.module.scss';
 
 function Feedback () {
     return (
-        <section className={style.feedback}>
+        <section className={style.feedback} id='feedback'>
             <div className={style.titleWrap}>
                 <H2 text={'Отзывы'}></H2>
             </div>

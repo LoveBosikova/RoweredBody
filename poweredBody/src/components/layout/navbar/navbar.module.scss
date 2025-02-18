@@ -3,13 +3,41 @@
 @import '../../../styles/fonts.scss';
 
 .navbar {
-    display: block;
+    display: flex;
     position: absolute;
-    top: 0;
+    width: 100%;
+    top: 2.5vw;
     left: 0;
-    visibility: hidden;
+    z-index: 5;
+}
+
+.linksWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: 5%;
 }
 
 .link {
-    font-family: 'Nunito';
+    @include nunito-300-21;
+    color: $text-brown;
+    cursor: pointer;
+    transition: $transition-appearance;
+
+    &:hover {
+        transition: $transition-disappearance;
+        text-decoration: underline;
+    }
+}
+
+.imgWrap {
+    width: 2.5vw;
+    margin-left: 5%;
+}
+
+.img {
+    width: 100%;
+    max-width: 100%;
 }

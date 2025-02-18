@@ -9,7 +9,7 @@ import styles from './ResultsBlock.module.scss';
 
 const ResultsBlock: React.FC = () => {
   return (
-    <div className={styles.resultsBlock}>
+    <div className={styles.resultsBlock} id='results'>
       <h2 className={styles.title}>Какие результаты у клиентов</h2>
       <div className={styles.images}>
         <ResultItem
