@@ -91,27 +91,15 @@
   }
 
   .title {
-    font-size: $font-size-150;
+    font-size: $font-size-80;
   }
 
   .images {
-    flex-direction: column; /* Переход к колонке */
     gap: 4vw; 
-    width: 100%;
-  }
-
-  .imageItem {
-    width: 80vw; /* Увеличиваем ширину карточек на мобильных */
-    margin-bottom: 5vw; 
   }
 
   .imageTitle {
     margin-top: 3vw;
-  }
-
-  .description {
-    margin-top: 3vw;
-    padding-bottom: 5vw; 
   }
 }
 
@@ -130,7 +118,7 @@
   }
 
   .imageTitle {
-    margin-top: 1vw; 
+    margin-top: 1vw; //
   }
 
   .description {
