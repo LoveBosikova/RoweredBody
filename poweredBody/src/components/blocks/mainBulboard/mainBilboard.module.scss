@@ -29,7 +29,7 @@
 }
 
 .title {
-    @include nunito-500-120;
+    @include nunito-300-120;
     text-align: center;
     text-transform: uppercase;
 }
@@ -42,7 +42,7 @@
 }
 
 .text {
-    @include nunito-500-35;
+    @include nunito-300-35;
     width: 65%;
     margin-left: auto;
     margin-right: auto;

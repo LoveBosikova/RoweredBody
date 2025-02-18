@@ -9,7 +9,7 @@
 }
 
 .title {
-  @include nunito-500-80;
+  @include nunito-300-80;
   text-align: left;
   padding: 4vw;
 }
@@ -26,7 +26,7 @@
   display: flex;
   justify-content: space-between; 
   gap: 2vw; 
-  flex-wrap: wrap; 
+  flex-wrap: nowrap; 
   width: 100%;
   max-width: 91%; 
   margin: 0 auto; 
@@ -50,13 +50,13 @@
 }
 
 .cardTitle {
-  @include nunito-500-25;
+  @include nunito-300-30;
   margin-top: 1vw;
   text-align: left;
 }
 
 .cardDescription {
-  @include nunito-400-21;
+  @include nunito-300-25;
   margin-top: 3vw;
   min-height: 5vw;
   text-align: left;
@@ -84,15 +84,18 @@
 }
 
 .btnWrap {
+  position: absolute;
   width: 30%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 66%;
 }
 
 .footerText {
-  font-size: 2.5vw;
+  @include nunito-300-35;
+  position: absolute;
+  // font-size: 2.5vw;
   text-align: center;
-  margin-top: 4vw;
+  margin-top: 82%;
+  // margin-top: 2vw;
 }
 
 .imageWrapper {
@@ -140,6 +143,93 @@
   margin-right: 10px; 
 }
 
+
+/* Медиазапросы для адаптива */
+
+/* Планшет */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .programs {
+    padding: 5vw 0;
+  }
+
+  .card {
+    width: 40vw; /* Уменьшаем ширину карточек для планшетов */
+  }
+
+  .cardContainer {
+    flex-direction: column; /* Меняем направление для планшетов */
+    max-width: 100%;
+  }
+
+  .cardTitle {
+    margin-top: 2vw; /* Немного увеличиваем отступ */
+  }
+
+  .cardDescription {
+    margin-top: 2vw;
+    padding-bottom: 10vw; /* Уменьшаем padding для планшетов */
+  }
+}
+
+/* Мобилка */
+@media (max-width: 767px) {
+  .programs {
+    padding: 6vw 0;
+  }
+
+  .card {
+    width: 70vw; /* Увеличиваем ширину карточек на мобильных */
+    min-width: 200px; 
+  }
+
+  .cardContainer {
+    flex-direction: column; /* Переводим карточки в колонку */
+  }
+
+  .cardTitle {
+    margin-top: 3vw; 
+  }
+
+  .cardDescription {
+    margin-top: 3vw;
+    padding-bottom: 8vw; 
+  }
+
+  .icon {
+    margin-top: 20vw; /* Меняем положение иконки */
+  }
+
+  .arrow {
+    width: 5vw; 
+  }
+
+  .btnWrap {
+    display: none; 
+  }
+
+  .footerText {
+    display: none; 
+  }
+}
+
+/* Десктоп */
+@media (min-width: 1024px) {
+  .programs {
+    padding: 4vw 0;
+  }
+
+  .card {
+    width: 22vw;
+  }
+
+  .cardContainer {
+    flex-direction: row; 
+  }
+
+  .footerText {
+    font-size: 2.5vw; 
+  }
+}
 
 
 
