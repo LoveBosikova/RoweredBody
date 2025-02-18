@@ -7,7 +7,7 @@ import aboutme from '../../../assets/photos/about-me.png';
 
 function AboutMe () {
     return (
-        <section className={style.aboutMe}>
+        <section className={style.aboutMe} id='about'>
             <H2 text={'Обо мне'}></H2>
             <article className={style.info}>
                 <img src={aboutme} alt="" />
