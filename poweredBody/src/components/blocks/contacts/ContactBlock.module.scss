@@ -8,6 +8,7 @@
   max-width: 100%;
   display: flex; 
   flex-direction: column; 
+  box-sizing: border-box;
 }
 
 .backgroundImage {
@@ -28,10 +29,11 @@
   position: relative;
   z-index: 1;  
   width: 50%;  
-  padding-right: 5vw;  
+  padding-left: 17vw;  
   padding-top: 10vw; 
-  padding-left: 70vw;
+  margin-left: auto;
   text-align: left;
+  box-sizing: border-box;
 }
 
 .title {
@@ -55,6 +57,8 @@
   gap: 1vw;
   color: $text-white;
   cursor: pointer;  
+  word-wrap: break-word; /* Позволяет обрабатывать длинные слова */
+  overflow-wrap: break-word;
 
   
   &:hover {
