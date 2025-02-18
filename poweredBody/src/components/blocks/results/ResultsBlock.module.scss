@@ -8,7 +8,7 @@
 }
 
 .title {
-  @include nunito-500-80;
+  @include nunito-300-80;
   text-align: left;
   padding: 4vw;
 }
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     gap: 1vw; 
-    flex-wrap: wrap; 
+    flex-wrap: nowrap; 
     margin-top: 3vw;
     margin: 0 auto;
     width: 91%;
@@ -38,14 +38,13 @@
     }
 
     .imageTitle {
-      @include nunito-500-25;
-      font-size: 4vw;  
+      @include nunito-300-30;
       margin-top: 1vw;
       text-align: left;
     }
 
     .description {
-      @include nunito-400-21;
+      @include nunito-300-25;
       margin-top: 3vw;
       min-height: 5vw;
       text-align: left;
@@ -57,4 +56,84 @@
   }
 
 
+/* Медиазапросы для адаптива */
 
+/* Планшет */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .resultsBlock {
+    padding: 5vw 0;
+  }
+
+  .images {
+    width: 100%;
+    gap: 2vw; 
+  }
+
+  .imageItem {
+    width: 40vw; 
+    margin-bottom: 3vw; /* Отступ снизу для улучшения визуала */
+  }
+
+  .imageTitle {
+    margin-top: 2vw; 
+  }
+
+  .description {
+    margin-top: 2vw;
+    padding-bottom: 8vw; 
+  }
+}
+
+/* Мобилка */
+@media (max-width: 767px) {
+  .resultsBlock {
+    padding: 6vw 0;
+  }
+
+  .title {
+    font-size: $font-size-150;
+  }
+
+  .images {
+    flex-direction: column; /* Переход к колонке */
+    gap: 4vw; 
+    width: 100%;
+  }
+
+  .imageItem {
+    width: 80vw; /* Увеличиваем ширину карточек на мобильных */
+    margin-bottom: 5vw; 
+  }
+
+  .imageTitle {
+    margin-top: 3vw;
+  }
+
+  .description {
+    margin-top: 3vw;
+    padding-bottom: 5vw; 
+  }
+}
+
+/* Десктоп */
+@media (min-width: 1024px) {
+  .resultsBlock {
+    padding: 4vw 0;
+  }
+
+  .images {
+    gap: 1vw; 
+  }
+
+  .imageItem {
+    width: 22vw; 
+  }
+
+  .imageTitle {
+    margin-top: 1vw; 
+  }
+
+  .description {
+    margin-top: 3vw;
+  }
+}
