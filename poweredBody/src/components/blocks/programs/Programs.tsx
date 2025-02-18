@@ -37,7 +37,7 @@ const Programs: React.FC = () => {
   };
 
   return (
-    <section className={styles.programs}>
+    <section className={styles.programs} id='programs'>
       <h2 className={styles.title}>Программы</h2>
 
       <div className={styles.cards}>

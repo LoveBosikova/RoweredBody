@@ -8,7 +8,7 @@ import styles from './ContactBlock.module.scss';
 
 const ContactBlock: React.FC = () => {
   return (
-    <section className={styles.contactBlock}>
+    <section className={styles.contactBlock} id='contacts'>
       <div className={styles.backgroundImage}>
         <img src={contacts} alt="Контакты" className={styles.contactsImage} />
       </div>
