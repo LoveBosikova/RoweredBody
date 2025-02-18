@@ -57,6 +57,7 @@
   gap: 1vw;
   color: $text-white;
   cursor: pointer;  
+  transition: $transition-appearance;
   word-wrap: break-word; /* Позволяет обрабатывать длинные слова */
   overflow-wrap: break-word;
 
