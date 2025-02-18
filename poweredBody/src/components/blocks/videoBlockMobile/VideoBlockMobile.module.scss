@@ -1,16 +1,15 @@
 .videoContainer {
-    margin-bottom: 50px;
+    margin-bottom: 3vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
 }
 
 .btn {
     width: 40%;
-    margin: 30px auto;
+    margin: 2vw auto;
 }
 
 
@@ -18,9 +17,5 @@
     .videoContainer {
         display: none;
     }
-    .btn {width: 200px;}
-};
-
-@media (min-width: 800px) {
-    .btn {width: 200px;}
+    .btn {width: 50%;}
 };

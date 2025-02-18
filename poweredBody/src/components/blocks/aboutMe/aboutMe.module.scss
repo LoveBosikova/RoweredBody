@@ -7,6 +7,15 @@
     margin-bottom: 7vw;
 }
 
+.photo {
+    width: 65%;
+
+    img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
 .info {
     display: flex;
 }
@@ -22,11 +31,6 @@
     line-height: 1.4;
 }
 
-img {
-    width: 40%;
-    object-fit: cover;
-}
-
 
 @media (max-width: 800px) {
     .text {
@@ -36,24 +40,33 @@ img {
     .ctatext {
         @include nunito-400-40;
     }
+
+    .text {
+        width: 55%;
+    }
 };
 
 @media (max-width: 560px) {
     .text {
-        @include nunito-400-35;
+        @include nunito-400-40;
     }
 
     .ctatext {
-        @include nunito-400-40;
+        @include nunito-400-50;
     }
 };
 
 @media (max-width: 460px) {
     .text {
         @include nunito-400-50;
+        width: 100%;
     }
 
     .ctatext {
-        @include nunito-500-61;
+        @include nunito-500-70;
+    }
+
+    .photo {
+        display: none;
     }
 };

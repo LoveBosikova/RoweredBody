@@ -13,7 +13,7 @@ const VideoBlock = () => {
             </video>
             </div>
             <div className={style.btn}>
-            <Button text="Бесплатная тренировка" />
+                <Button text="Бесплатная тренировка" />
             </div>
         </div>
     );

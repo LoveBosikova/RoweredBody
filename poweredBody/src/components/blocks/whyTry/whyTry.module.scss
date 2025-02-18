@@ -4,7 +4,7 @@
 
 .aboutMe {
     margin-left: 4vw;
-    margin-bottom: 120px;
+    margin-bottom: 7vw;
     margin-right: 1vw;
 }
 
@@ -26,7 +26,7 @@
 .ctatext {
     text-align: center;
     margin-top: 4vw;
-    @include nunito-400-30;
+    @include nunito-300-30;
 }
 
 img {

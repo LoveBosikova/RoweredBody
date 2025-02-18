@@ -1,4 +1,3 @@
-//import React from 'react';
 import React, { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
@@ -13,7 +12,7 @@ const Slider = ({ slides }) => {
 
     const nextRef = React.useRef(null);
     const prevRef = React.useRef(null);
-    const swiperRef = React.useRef(null); // Ссылка на экземпляр Swiper
+    const swiperRef = React.useRef(null); 
 
     useEffect(() => {
         if (swiperRef.current) {
@@ -22,14 +21,11 @@ const Slider = ({ slides }) => {
         }
     }, [swiperRef]);
 
-    // const navigationPrevRef = React.useRef(null)
-    // const navigationNextRef = React.useRef(null)
-
     return (
         <Swiper
             ref={swiperRef} 
-            spaceBetween={30}
-            //navigation 
+            spaceBetween={50}
+            //centeredSlides={true}
             navigation={{ prevEl: prevRef.current, nextEl: nextRef.current }}
             pagination={{ clickable: true }}
             modules={[Navigation]}

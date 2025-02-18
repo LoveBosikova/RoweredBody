@@ -4,7 +4,7 @@
 
 .slidecontent {
     display: flex;
-    width: 83%;
+    width: 80%;
     padding-left: 10vw;
     text-align: left;
     margin: 20px; 
@@ -12,11 +12,14 @@
     padding: 35px; 
     border-radius: 10px; 
     background-color: $back-green; 
-    @include nunito-400-21;
+    @include nunito-300-21;
     color: $white-text;
 }
 
-.when {@include nunito-400-25; margin-bottom: 10px;}
+.when {
+    @include nunito-300-25; 
+    margin-bottom: 10px;
+}
 
 .photos {
     display: flex;
@@ -24,25 +27,25 @@
 }
 
 .slideText {
-    margin-left: 60px;
+    margin-left: 4vw;
 }
 
 .name {
     text-align: center;
-    @include nunito-400-30;
+    @include nunito-300-30;
 }
 
 .caseHeading {
     background-color: $button-brown;
     border-radius: 27px;
-    width: 370px;
+    width: 80%;
     height: 56px;
     display: flex;
     align-items: center;
     justify-content: center;
-    @include nunito-400-25;
-    margin-top: 25px;
-    margin-bottom: 35px;
+    @include nunito-300-25;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
 .list {
@@ -64,20 +67,9 @@
     }
 }
 
-
-
-.navigationButtonLeft {
-    left: -20px;
-    bottom: 10px;
-    z-index: 10;
-}
-
 .navigationButtonRight {
-    right: 10px;
-    z-index: 10;
-    
+    right: 12vw;
 }
-
 
 .image {
     width: 100%;
@@ -87,88 +79,135 @@ li {
     margin: 5px 0; 
 }
 
-
-@media (max-width: 1290px) {
-    .navigationButtonLeft {bottom: 30px;}
-    .navigationButtonRight {bottom: 25px;}
+@media (max-width: 1300px) {
+    .navigationButtonRight {
+        right: 11vw;
+    }
 }
 
-@media (max-width: 1210px) {
-    .navigationButtonLeft {bottom: 40px;}
-    .navigationButtonRight {bottom: 35px;}
+
+@media (min-width: 1900px) {
+    .navigationButtonRight {
+        right: 34vw;
+    }
+
+    .slidecontent {
+        width: 60%;
+    }
 }
 
-@media (max-width: 1190px) {
-    .navigationButtonLeft {bottom: 25px; right: 90px;}
-    .navigationButtonRight {bottom: 20px; right: 20px;}
+@media (max-width: 1200px) {
+    .navigationButtonRight {
+        right: 10vw;
+    }
 }
 
-@media (max-width: 1110px) {
-    .navigationButtonLeft {bottom: 5px; right: 90px;}
-    .navigationButtonRight {bottom: 0px; right: 20px;}
-}
-
-@media (max-width: 1095px) {
-    .navigationButtonLeft {bottom: 25px; right: 100px;}
-    .navigationButtonRight {bottom: 20px; right: 20px;}
+@media (max-width: 1100px) {
+    .slidecontent {
+        @include nunito-300-30;
+    }
+    .caseHeading, .name, .when {
+        @include nunito-300-35;
+    }
+    .caseHeading {
+        width: 90%;
+    }
+    .navigationButtonRight {
+        right: 9vw;
+    }
 }
 
 @media (max-width: 1000px) {
-    .slidecontent {@include nunito-400-30;}
-    .caseHeading, .name, .when {@include nunito-400-35;}
-    .navigationButtonLeft {bottom: 20px; right: 90px;}
-    .navigationButtonRight {bottom: 15px; right: 20px;}
-    .caseHeading {width: 300px;}
-}
-
-@media (max-width: 880px) {
-    .navigationButtonLeft {bottom: 30px; right: 90px;}
-    .navigationButtonRight {bottom: 25px; right: 20px;}
-}
-
-@media (max-width: 880px) {
-    .navigationButtonLeft {bottom: 30px; right: 90px;}
-    .navigationButtonRight {bottom: 25px; right: 20px;}
-    .caseHeading {
-        width: 250px; 
-        margin-top: 30px;
-        @include nunito-400-35;
+    .navigationButtonRight {
+        right: 8vw;
     }
-    //.slideText {width: 40%;}
+
+    .caseHeading {
+        width: 96%;
+    }
+}
+
+@media (max-width: 880px) {
+    .caseHeading {
+        width: 80%; 
+        margin-top: 30px;
+        @include nunito-300-35;
+    }
+
     .slidecontent {
         flex-wrap: wrap;
-        @include nunito-400-35;
+        @include nunito-300-35;
     }
-    .name, .caseHeading {@include nunito-400-40;}
+    .name, .caseHeading {
+        @include nunito-400-40;
+    }
+
+    .navigationButtonRight {
+        right: 7vw;
+    }
+
+    .slideText {
+        margin-left: 8vw;
+    }
+}
+
+@media (max-width: 780px) {
+    .navigationButtonRight {
+        right: 5vw;
+    }
+}
+
+@media (max-width: 690px) {
+    .navigationButtonRight {
+        right: 3vw;
+    }
+}
+
+@media (max-width: 650px) {
+    .navigationButtonRight {
+        right: 3vw;
+    }
+}
+
+@media (max-width: 560px) {
+    .navigationButtonRight {
+        right: 5vw;
+    }
+}
+
+@media (max-width: 520px) {
+    .navigationButtonRight {
+        right: 1vw;
+    }
 }
 
 @media (max-width: 500px) {
     .slidecontent {
         @include nunito-400-40;
     }
-    .name, .caseHeading {@include nunito-400-45;}
-    .slideText {margin-left: 20px;}
+    .name, .caseHeading {
+        @include nunito-400-45;
+    }
+    .slideText {
+        margin-left: 2vw;
+    }
+
+    .navigationButtonRight {
+        right: 1vw;
+    }
+
 }
 
 @media (max-width: 420px) {
     .slidecontent {
-        @include nunito-500-61;
+        @include nunito-500-70;
     }
-    .name, .caseHeading {@include nunito-500-80;}
+    .name, .caseHeading {@include nunito-500-70;}
     .caseHeading {width: 250px;}
-    .slideText {margin-left: 0px;}
-    .navigationButtonLeft {bottom: 5px; right: 90px;}
-    .navigationButtonRight {bottom: 0px; right: 20px;}
+    .slideText {margin-left: 0%;}
 }
 
 
-
-// .slide-image {
-//     width: 100%; /* Сделать изображение адаптивным */
-//     max-width: 400px; /* Ограничение максимальной ширины */
-//     height: auto; /* Адаптивная высота */
-//     border-radius: 5px; 
-// }
 
 
 

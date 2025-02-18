@@ -10,7 +10,9 @@ function AboutMe () {
         <section className={style.aboutMe} id='about'>
             <H2 text={'Обо мне'}></H2>
             <article className={style.info}>
-                <img src={aboutme} alt="" />
+                <div className={style.photo}>
+                    <img src={aboutme} alt="" />
+                </div>
                 <div className={style.text}>
                 <p className={style.paragraph}>Я Таша, женский фитнес-тренер, специалист по мышцам тазового дна, но ученицы зовут меня «тренер с бархатным голосом».
                 </p>
