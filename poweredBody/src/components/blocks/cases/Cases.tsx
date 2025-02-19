@@ -10,7 +10,7 @@ import CaseCard from '../../ui/caseCard/caseCard';
 
 function Cases () {
     return (
-        <section className={style.cases}>
+        <section className={style.cases} id='cases'>
             <H2 text={'Результат системы InsideOut'} />
             <div className={style.swiperWrap}>
                 <Swiper
