@@ -1,0 +1,77 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/fonts.scss';
+
+.caseCard {
+    background-color: $back-green;
+    border-radius: 8px;
+    padding: 1vw;
+    display: flex;
+}
+
+.imgsWrap {
+    display: flex;
+    width: 50%;
+    gap: 1%;
+}
+
+.textSide {
+    width: 50%;
+}
+
+.photoWrap {
+    width: 50%;
+}
+
+.img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.photoText {
+    @include nunito-300-25;
+    color: $text-white;
+}
+
+.pointBefore {
+    margin-bottom: 2vw;
+}
+
+.pointBefore {
+    margin-left: 10%;
+    padding-right: 5%;
+}
+
+.pointAfter {
+    margin-left: 10%;
+    padding-right: 5%;
+
+}
+
+.name {
+    @include nunito-300-30;
+    width: 100%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    color: $text-white;
+    text-align: center;
+
+}
+
+.data {
+    @include nunito-300-25;
+    color: $text-white;
+    background-color: $back-brown;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 26px;
+    padding: 1vw;
+    margin-bottom: 1vw;
+}
+
+.point {
+    @include nunito-300-25;
+    color: $text-white;
+    list-style-type: disc;
+}

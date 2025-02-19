@@ -31,7 +31,7 @@ const CUSTOMER_PAINS : string[] = [
     'Давно не занимались, но мечтаете заняться собой',
 ]
 
-const SLIDES = [
+const CASES = [
     {
         name: 'Анна, 32 года, 6 детей',
         titleBefore: 'Точка А - февраль 2023',
@@ -206,4 +206,4 @@ const SLIDES = [
     }
 ]
 
-export { CUSTOMER_PAINS, SLIDES }
+export { CUSTOMER_PAINS, CASES }

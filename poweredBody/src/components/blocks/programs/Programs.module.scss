@@ -3,6 +3,7 @@
 @import '../../../styles/fonts.scss';
 
 .programs {
+  position: relative;
   width: 100%;
   max-width: 100%;
   padding: 4vw 0;
@@ -63,7 +64,7 @@
   flex-grow: 1;
   line-height: 1.7;
   white-space: pre-line;
-  padding-bottom: 13vw;
+  padding-bottom: 1vw;
 }
 
 
@@ -84,22 +85,14 @@
 }
 
 .btnWrap {
-  position: absolute;
   width: 30%;
-  margin-top: 66%;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
 }
 
 .footerText {
   @include nunito-300-35;
-  position: absolute;
-  // font-size: 2.5vw;
   text-align: center;
-  margin-top: 82%;
-  // margin-top: 2vw;
-}
-
-.imageWrapper {
-  position: relative;
 }
 
 .arrowWrapper {
@@ -108,7 +101,7 @@
   transform: translateY(-50%); 
   opacity: 0.7; 
   cursor: pointer;
-  transition: opacity 0.3s ease; 
+  transition: opacity .3s ease; 
 }
 
 .arrow {
@@ -117,16 +110,16 @@
 }
 
 .cardDescription {
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity .3s ease-in-out;
 }
 
 .arrowWrapper {
   position: absolute;
   top: 50%; 
   transform: translateY(-50%); 
-  opacity: 0.7;  
+  opacity: .7;  
   cursor: pointer;
-  transition: opacity 0.3s ease; 
+  transition: opacity .3s ease; 
 }
 
 .arrowWrapper:hover {
@@ -153,7 +146,9 @@
   }
 
   .card {
-    width: 40vw; /* Уменьшаем ширину карточек для планшетов */
+    width: 50vw; /* Уменьшаем ширину карточек для планшетов */
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .cardContainer {
@@ -169,6 +164,10 @@
     margin-top: 2vw;
     padding-bottom: 10vw; /* Уменьшаем padding для планшетов */
   }
+
+  .icon {
+    display: none;
+  }
 }
 
 /* Мобилка */
@@ -178,8 +177,10 @@
   }
 
   .card {
-    width: 70vw; /* Увеличиваем ширину карточек на мобильных */
+    width: 80%; /* Увеличиваем ширину карточек на мобильных */
     min-width: 200px; 
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .cardContainer {
@@ -188,15 +189,15 @@
 
   .cardTitle {
     margin-top: 3vw; 
+    @include nunito-300-45;
+
   }
 
   .cardDescription {
+    @include nunito-300-40;
+
     margin-top: 3vw;
     padding-bottom: 8vw; 
-  }
-
-  .icon {
-    margin-top: 20vw; /* Меняем положение иконки */
   }
 
   .arrow {
@@ -210,26 +211,8 @@
   .footerText {
     display: none; 
   }
-}
 
-/* Десктоп */
-@media (min-width: 1024px) {
-  .programs {
-    padding: 4vw 0;
-  }
-
-  .card {
-    width: 22vw;
-  }
-
-  .cardContainer {
-    flex-direction: row; 
-  }
-
-  .footerText {
-    font-size: 2.5vw; 
+  .icon {
+    display: none;
   }
 }
-
-
-

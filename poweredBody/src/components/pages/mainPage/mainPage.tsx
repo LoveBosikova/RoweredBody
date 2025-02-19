@@ -2,7 +2,7 @@ import CustomerPain from '../../blocks/customerPain/customerPain';
 import Feedback from '../../blocks/feedback/feedback';
 import MainBilboard from '../../blocks/mainBulboard/mainBilboard';
 import ResultsBlock from '../../blocks/results/ResultsBlock';
-import Cases1 from '../../blocks/cases/Cases1';
+import Cases1 from '../../blocks/cases/Cases';
 import WhyTry from '../../blocks/whyTry/whyTry';
 import VideoBlock from '../../blocks/videoBlock/videoBlock';
 import VideoBlockMobile from '../../blocks/videoBlockMobile/VideoBlockMobile';

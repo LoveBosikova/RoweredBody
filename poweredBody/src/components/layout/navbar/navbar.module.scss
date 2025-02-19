@@ -35,9 +35,18 @@
 .imgWrap {
     width: 2.5vw;
     margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .img {
     width: 100%;
     max-width: 100%;
 }
+
+@media (max-width: 768px) {
+    .link {
+        @include nunito-300-35;
+    }
+};
