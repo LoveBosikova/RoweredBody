@@ -25,7 +25,6 @@ const Slider = ({ slides }) => {
         <Swiper
             ref={swiperRef} 
             spaceBetween={50}
-            //centeredSlides={true}
             navigation={{ prevEl: prevRef.current, nextEl: nextRef.current }}
             pagination={{ clickable: true }}
             modules={[Navigation]}
