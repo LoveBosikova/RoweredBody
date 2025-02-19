@@ -1,13 +1,11 @@
 .cases {
-    //margin-left: 2vw;
-    //margin: 0 auto;
-    //display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 7vw;
-    //flex-direction: column;
     align-items: center;
     margin-left: 2vw;
+    overflow: hidden;
+    width: 90%;
 }
 
 .casesDescribe {
@@ -17,6 +15,7 @@
     justify-content: center;
     width: 100%;
     margin-left: 5vw;
+    overflow: hidden;
 }
 
 @media (max-width: 800px) {

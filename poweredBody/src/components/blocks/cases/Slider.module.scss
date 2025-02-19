@@ -79,6 +79,14 @@ li {
     margin: 5px 0; 
 }
 
+.swiper-slide {
+    overflow: hidden !important;
+}
+
+.swiper-slide-active {
+    overflow: hidden;
+}
+
 @media (max-width: 1300px) {
     .navigationButtonRight {
         right: 11vw;
