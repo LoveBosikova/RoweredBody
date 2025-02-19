@@ -54,6 +54,7 @@
   align-items: center;
   gap: 1vw;
   color: $text-white;
+  transition: $transition-appearance;
   cursor: pointer;  
 
   
@@ -80,5 +81,3 @@
   height: 5vw;
   object-fit: contain;
 }
-
-

@@ -12,7 +12,7 @@ const ResultItem: React.FC<ResultItemProps> = ({ image, title, description, alt 
       <div className={styles.imageItem}>
         <img src={image} alt={alt} className={styles.image} />
         <h3 className={styles.imageTitle}>{title}</h3>
-        <p className={styles.description}>{description}</p>
+        <div className={styles.description}>{description}</div>
       </div>
     );
 }
