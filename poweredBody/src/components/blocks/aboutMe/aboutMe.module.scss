@@ -7,6 +7,15 @@
     margin-bottom: 7vw;
 }
 
+.photo {
+    width: 65%;
+
+    img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
 .info {
     display: flex;
 }
@@ -21,3 +30,43 @@
     margin-bottom: 2.5vw;
     line-height: 1.4;
 }
+
+
+@media (max-width: 800px) {
+    .text {
+        @include nunito-400-35;
+    }
+
+    .ctatext {
+        @include nunito-400-40;
+    }
+
+    .text {
+        width: 55%;
+    }
+};
+
+@media (max-width: 560px) {
+    .text {
+        @include nunito-400-40;
+    }
+
+    .ctatext {
+        @include nunito-400-50;
+    }
+};
+
+@media (max-width: 460px) {
+    .text {
+        @include nunito-400-50;
+        width: 100%;
+    }
+
+    .ctatext {
+        @include nunito-500-70;
+    }
+
+    .photo {
+        display: none;
+    }
+};

@@ -1,0 +1,213 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/fonts.scss';
+@import '../../../styles/variables.scss';
+
+.slidecontent {
+    display: flex;
+    width: 80%;
+    padding-left: 10vw;
+    text-align: left;
+    margin: 20px; 
+    border: 1px solid #ccc;
+    padding: 35px; 
+    border-radius: 10px; 
+    background-color: $back-green; 
+    @include nunito-300-21;
+    color: $white-text;
+}
+
+.when {
+    @include nunito-300-25; 
+    margin-bottom: 10px;
+}
+
+.photos {
+    display: flex;
+    gap: 10px;
+}
+
+.slideText {
+    margin-left: 4vw;
+}
+
+.name {
+    text-align: center;
+    @include nunito-300-30;
+}
+
+.caseHeading {
+    background-color: $button-brown;
+    border-radius: 27px;
+    width: 80%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include nunito-300-25;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.list {
+    list-style-type: disc;
+}
+
+.navigationButtonLeft,
+.navigationButtonRight {
+    position: absolute; 
+    top: 50%; /* Центрирование по вертикали */
+    transform: translateY(-50%); /* Чтобы центрировать по вертикали с учетом высоты кнопки */
+    cursor: pointer; 
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+
+    img {
+        width: 50px;
+    }
+}
+
+.navigationButtonRight {
+    right: 12vw;
+}
+
+.image {
+    width: 100%;
+}
+
+li {
+    margin: 5px 0; 
+}
+
+@media (max-width: 1300px) {
+    .navigationButtonRight {
+        right: 11vw;
+    }
+}
+
+
+@media (min-width: 1900px) {
+    .navigationButtonRight {
+        right: 34vw;
+    }
+
+    .slidecontent {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navigationButtonRight {
+        right: 10vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    .slidecontent {
+        @include nunito-300-30;
+    }
+    .caseHeading, .name, .when {
+        @include nunito-300-35;
+    }
+    .caseHeading {
+        width: 90%;
+    }
+    .navigationButtonRight {
+        right: 9vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navigationButtonRight {
+        right: 8vw;
+    }
+
+    .caseHeading {
+        width: 96%;
+    }
+}
+
+@media (max-width: 880px) {
+    .caseHeading {
+        width: 80%; 
+        margin-top: 30px;
+        @include nunito-300-35;
+    }
+
+    .slidecontent {
+        flex-wrap: wrap;
+        @include nunito-300-35;
+    }
+    .name, .caseHeading {
+        @include nunito-400-40;
+    }
+
+    .navigationButtonRight {
+        right: 7vw;
+    }
+
+    .slideText {
+        margin-left: 8vw;
+    }
+}
+
+@media (max-width: 780px) {
+    .navigationButtonRight {
+        right: 5vw;
+    }
+}
+
+@media (max-width: 690px) {
+    .navigationButtonRight {
+        right: 3vw;
+    }
+}
+
+@media (max-width: 650px) {
+    .navigationButtonRight {
+        right: 3vw;
+    }
+}
+
+@media (max-width: 560px) {
+    .navigationButtonRight {
+        right: 5vw;
+    }
+}
+
+@media (max-width: 520px) {
+    .navigationButtonRight {
+        right: 1vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .slidecontent {
+        @include nunito-400-40;
+    }
+    .name, .caseHeading {
+        @include nunito-400-45;
+    }
+    .slideText {
+        margin-left: 2vw;
+    }
+
+    .navigationButtonRight {
+        right: 1vw;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .slidecontent {
+        @include nunito-500-70;
+    }
+    .name, .caseHeading {@include nunito-500-70;}
+    .caseHeading {width: 250px;}
+    .slideText {margin-left: 0%;}
+}
+
+
+
+
+
