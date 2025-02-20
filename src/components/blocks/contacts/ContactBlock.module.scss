@@ -81,3 +81,61 @@
   height: 5vw;
   object-fit: contain;
 }
+
+// Мобильный дизайн (max-width: 767px)
+@media (max-width: 767px) {
+  .contentWrapper {
+    width: 100%;  
+    padding-right: 5%;  
+    padding-top: 5%;  
+    text-align: center;  
+  }
+
+  .title {
+    margin-bottom: 5%; 
+  }
+
+  .contactItem {
+    gap: 2vw;  
+    font-size: 4vw; 
+  }
+
+  .contactIcon {
+    width: 10vw;  
+    height: 10vw;
+  }
+
+  .icon {
+    width: 10vw;  
+    height: 10vw;
+  }
+}
+
+// Планшетный дизайн (max-width: 1023px и min-width: 768px)
+@media (max-width: 1023px) and (min-width: 768px) {
+  .contentWrapper {
+    width: 50%;  
+    padding-right: 7vw;  
+    padding-top: 7vw;  
+    text-align: center;  
+  }
+
+  .title {
+    margin-bottom: 4%;  
+  }
+
+  .contactItem {
+    gap: 1.5vw; 
+    font-size: 5vw;  
+  }
+
+  .contactIcon {
+    width: 8vw;  
+    height: 8vw;
+  }
+
+  .icon {
+    width: 8vw; 
+    height: 8vw;
+  }
+}

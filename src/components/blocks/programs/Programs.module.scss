@@ -107,7 +107,7 @@
 
 .arrowWrapper {
   position: absolute;
-  top: 50%; 
+  top: 25%; 
   transform: translateY(-50%); 
   opacity: 0.7; 
   cursor: pointer;
@@ -121,15 +121,6 @@
 
 .cardDescription {
   transition: opacity .3s ease-in-out;
-}
-
-.arrowWrapper {
-  position: absolute;
-  top: 50%; 
-  transform: translateY(-50%); 
-  opacity: .7;  
-  cursor: pointer;
-  transition: opacity .3s ease; 
 }
 
 .arrowWrapper:hover {
@@ -164,6 +155,10 @@
   .cardContainer {
     flex-direction: column; /* Меняем направление для планшетов */
     max-width: 100%;
+  }
+
+  .arrowWrapper {
+    top: 40%;  
   }
 
   .cardTitle {
@@ -220,6 +215,10 @@
 
   .arrow {
     width: 5vw; 
+  }
+
+  .arrowWrapper {
+    top: 40%;  // Стрелки будут немного выше на мобильных устройствах
   }
 
   .btnWrap {
