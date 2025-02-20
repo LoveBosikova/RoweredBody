@@ -1,4 +1,11 @@
+
+
+// @import '../../../node_modules/swiper/swiper.scss';
+// @import '../../../node_modules/swiper/modules/navigation.scss';
+// @import '../../../node_modules/swiper/modules/pagination.scss';
+
 @import '../../../styles/colors.scss';
+
 
 .feedback {
 padding-top: 9.9vw;
@@ -10,15 +17,10 @@ padding-bottom: 10vw;
     padding-left: 6%;
 }
 
-.swiperWrap {
-    // margin-bottom: 1vw;
-}
 
 .slide {
     height: auto;
     margin-bottom: 1vw;
-    // padding-top: 1vw;
-    // padding-bottom: 1vw;
     background-color: $back-green;
 }
 
@@ -29,8 +31,6 @@ padding-bottom: 10vw;
     padding-right: 0.5vw;
     padding-left: 0.5vw;
     align-items: center;
-    // margin-right: 0.2vw;
-    // padding-top: 1vw;
     padding-bottom: 1vw;
     height: 100%;
 }

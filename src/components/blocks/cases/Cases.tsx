@@ -4,7 +4,6 @@ import H2 from '../../ui/h2/h2';
 
 import { CASES } from '../../../utils/constants';
 
-import 'swiper/css';
 import style from "./Cases.module.scss"; 
 import CaseCard from '../../ui/caseCard/caseCard';
 

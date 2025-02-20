@@ -1,5 +1,4 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination} from 'swiper/modules';
 
 import feedback1 from '../../../assets/feedback/feedback-1.webp';
 import feedback2 from '../../../assets/feedback/feedback-2.webp';
@@ -9,8 +8,7 @@ import feedback5 from '../../../assets/feedback/feedback-5.webp';
 import feedback6 from '../../../assets/feedback/feedback-6.webp';
 import feedback7 from '../../../assets/feedback/feedback-7.webp';
 import H2 from '../../ui/h2/h2';
-
-import 'swiper/css';
+//
 import style from './feedback.module.scss';
 
 function Feedback () {
