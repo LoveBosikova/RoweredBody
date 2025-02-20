@@ -1,13 +1,17 @@
+import { useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import H2 from '../../ui/h2/h2';
-
-import { CASES } from '../../../utils/constants';
-
-import style from "./Cases.module.scss"; 
 import CaseCard from '../../ui/caseCard/caseCard';
 
+import { CASES } from '../../../utils/constants';
+import btn from '../../../assets/btn-swiper.svg';
+
+import style from "./Cases.module.scss"; 
+
 function Cases () {
+    const swiperRef = useRef<any>(null);
+
     return (
         <section className={style.cases} id='cases'>
             <H2 text={'Результат системы InsideOut'} />
@@ -27,6 +31,9 @@ function Cases () {
                 }}
                 pagination={true}
                 className={style.swiper}
+                onBeforeInit={(swiper) => {
+                    swiperRef.current = swiper;
+                }}
                 >
                     {CASES.map((c) => {
                         return (
@@ -36,6 +43,14 @@ function Cases () {
                         )
                     })}
             </Swiper>
+            <div className={style.btnsWrap}>
+                <button className={style.btnPrev} onClick={() => swiperRef.current?.slidePrev()}>
+                    <img className={style.img} src={btn} alt="" />
+                </button>
+                <button className={style.btnNext} onClick={() => swiperRef.current?.slideNext()}>
+                        <img className={style.img} src={btn} alt='Следующий слайд' />
+                </button>
+            </div>
             </div>
         </section>
     )

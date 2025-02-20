@@ -6,6 +6,7 @@
     border-radius: 8px;
     padding: 1vw;
     display: flex;
+    height: 100%;
 }
 
 .imgsWrap {
@@ -54,7 +55,6 @@
     margin-bottom: 2vw;
     color: $text-white;
     text-align: center;
-
 }
 
 .data {
@@ -74,4 +74,40 @@
     @include nunito-300-25;
     color: $text-white;
     list-style-type: disc;
+}
+
+@media (max-width: 768px) {
+    .caseCard {
+        flex-direction: column;
+        padding: 3vw;
+    }
+
+    .imgsWrap {
+        width: 100%;
+    }
+    
+    .textSide {
+        width: 100%;
+    }
+
+    .photoText {
+        @include nunito-300-35;
+    }
+
+    .name {
+        @include nunito-300-61;
+    }
+
+    .data {
+        @include nunito-300-40;
+    }
+    
+    .point {
+        @include nunito-300-40;
+    }
+
+    .pointBefore {
+        margin-bottom: 3vw;
+    }
+    
 }

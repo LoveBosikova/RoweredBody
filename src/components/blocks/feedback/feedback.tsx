@@ -91,7 +91,7 @@ function Feedback () {
             grabCursor={true}
             centeredSlides={false}
             slidesPerView={3.5}
-            slidesOffsetBefore={-200}
+            slidesOffsetBefore={-70}
             spaceBetween={5}
             coverflowEffect={{
                 rotate: 50,

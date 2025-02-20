@@ -1,4 +1,4 @@
-@import '../../node_modules/swiper/swiper.scss';
+@import '../node_modules/swiper/swiper.scss';
 
 :root {
   width: 100%;
@@ -54,4 +54,10 @@ select::-ms-expand {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: none;
 }
