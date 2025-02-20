@@ -1,0 +1,236 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/variables.scss';
+@import '../../../styles/fonts.scss';
+
+.programs {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  padding: 4vw 0;
+}
+
+.title {
+  @include nunito-300-80;
+  text-align: left;
+  padding: 4vw;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw; 
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-between; 
+  gap: 2vw; 
+  flex-wrap: nowrap; 
+  width: 100%;
+  max-width: 91%; 
+  margin: 0 auto; 
+}
+
+.card {
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-between; 
+  width: 22vw;  
+  text-align: left;
+  position: relative;
+  min-width: 270px; 
+}
+
+.cardMobile {
+  display: none;
+  flex-direction: column;  
+  justify-content: space-between; 
+  width: 22vw;  
+  text-align: left;
+  position: relative;
+  min-width: 270px; 
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+  border-radius: 5px; 
+}
+
+.cardTitle {
+  @include nunito-300-30;
+  margin-top: 1vw;
+  text-align: left;
+}
+
+.cardDescription {
+  @include nunito-300-25;
+  margin-top: 3vw;
+  min-height: 5vw;
+  text-align: left;
+  flex-grow: 1;
+  line-height: 1.7;
+  white-space: pre-line;
+  padding-bottom: 1vw;
+}
+
+
+.icon {
+  margin-top: 14vw; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3vw;
+  height: 3vw;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.iconImage {
+  width: 100%;
+  height: auto;
+}
+
+.btnWrap {
+  width: 30%;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+
+.footerText {
+  @include nunito-300-35;
+  text-align: center;
+}
+
+.arrowWrapper {
+  position: absolute;
+  top: 50%; 
+  transform: translateY(-50%); 
+  opacity: 0.7; 
+  cursor: pointer;
+  transition: opacity .3s ease; 
+}
+
+.arrow {
+  width: 2.5vw;
+  height: auto;
+}
+
+.cardDescription {
+  transition: opacity .3s ease-in-out;
+}
+
+.arrowWrapper {
+  position: absolute;
+  top: 50%; 
+  transform: translateY(-50%); 
+  opacity: .7;  
+  cursor: pointer;
+  transition: opacity .3s ease; 
+}
+
+.arrowWrapper:hover {
+  opacity: 1;  
+}
+
+.arrowLeft {
+  left: 0;  
+  margin-left: 10px; 
+}
+
+.arrowRight {
+  right: 0;  
+  margin-right: 10px; 
+}
+
+
+/* Медиазапросы для адаптива */
+
+/* Планшет */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .programs {
+    padding: 5vw 0;
+  }
+
+  .card {
+    width: 50vw; /* Уменьшаем ширину карточек для планшетов */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cardContainer {
+    flex-direction: column; /* Меняем направление для планшетов */
+    max-width: 100%;
+  }
+
+  .cardTitle {
+    margin-top: 2vw; /* Немного увеличиваем отступ */
+  }
+
+  .cardDescription {
+    margin-top: 2vw;
+    padding-bottom: 10vw; /* Уменьшаем padding для планшетов */
+  }
+
+  .icon {
+    display: none;
+  }
+}
+
+/* Мобилка */
+@media (max-width: 767px) {
+  .programs {
+    padding: 6vw 0;
+  }
+
+  .card {
+    width: 80%; /* Увеличиваем ширину карточек на мобильных */
+    min-width: 200px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cardMobile {
+    display: flex;
+    width: 80%; /* Увеличиваем ширину карточек на мобильных */
+    min-width: 200px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cardContainer {
+    flex-direction: column; /* Переводим карточки в колонку */
+  }
+
+  .cardTitle {
+    margin-top: 3vw; 
+    @include nunito-300-45;
+
+  }
+
+  .cardDescription {
+    @include nunito-300-40;
+
+    margin-top: 3vw;
+    padding-bottom: 8vw; 
+  }
+
+  .arrow {
+    width: 5vw; 
+  }
+
+  .btnWrap {
+    display: none; 
+  }
+
+  .footerText {
+    display: none; 
+  }
+
+  .icon {
+    display: none;
+  }
+}

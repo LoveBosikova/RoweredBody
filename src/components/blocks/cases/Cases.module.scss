@@ -1,0 +1,50 @@
+
+@import "swiper/css";
+
+.cases {
+    position: relative;
+    margin-bottom: 8vw;
+}
+
+.swiperWrap {
+    width: 80%;
+    margin-top: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.btnsWrap {
+    position: absolute;
+    z-index: 2;
+    bottom: -3%;
+    right: 8%;
+    display: flex;
+}
+
+.btnPrev,
+.btnNext {
+    width: 5vw;
+    cursor: pointer;
+}
+
+.btnNext {
+    transform: scaleX(-1);
+}
+
+@media (max-width: 768px) {
+    .btnPrev,
+    .btnNext {
+        width: 9vw;
+    }
+
+    .btnsWrap {
+        bottom: 1%;
+        right: 5%;
+        gap: 2vw;
+    }
+}
