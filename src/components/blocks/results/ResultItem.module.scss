@@ -34,3 +34,44 @@
     padding-bottom: 13vw;
   }
   
+
+  /* Планшет */
+@media (max-width: 1023px) {
+  .imageItem {
+    width: 43vw; 
+    margin-bottom: 1vw; /* Отступ снизу для улучшения визуала */
+  }
+
+  .imageTitle {
+    @include nunito-300-40;
+    margin-top: 1vw;
+    text-align: left;
+  }
+
+  .imageTitle {
+    margin-top: 2vw; 
+  }
+
+  .description {
+    @include nunito-300-30;
+    margin-top: 5vw;
+    padding-bottom: 7vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .imageItem {
+    width: 80vw; 
+    margin-bottom: 1vw; /* Отступ снизу для улучшения визуала */
+  }
+
+  .imageTitle {
+    @include nunito-300-61;
+  }
+
+  .description {
+    @include nunito-300-45;
+    margin-top: 5vw;
+    padding-bottom: 12vw;
+  }
+}
