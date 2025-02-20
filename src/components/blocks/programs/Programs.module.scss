@@ -43,6 +43,16 @@
   min-width: 270px; 
 }
 
+.cardMobile {
+  display: none;
+  flex-direction: column;  
+  justify-content: space-between; 
+  width: 22vw;  
+  text-align: left;
+  position: relative;
+  min-width: 270px; 
+}
+
 .image {
   width: 100%;
   height: auto;
@@ -177,6 +187,14 @@
   }
 
   .card {
+    width: 80%; /* Увеличиваем ширину карточек на мобильных */
+    min-width: 200px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cardMobile {
+    display: flex;
     width: 80%; /* Увеличиваем ширину карточек на мобильных */
     min-width: 200px; 
     margin-left: auto;
