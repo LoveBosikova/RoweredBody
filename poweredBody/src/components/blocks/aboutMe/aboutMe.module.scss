@@ -26,40 +26,76 @@
     margin-right: 4vw;
 }
 
-.paragraph {
+.paragraph, .paragraphLast {
     margin-bottom: 2.5vw;
     line-height: 1.4;
 }
 
+.paragraphNew {
+    display: none;
+}
 
-@media (max-width: 800px) {
+.paragraphNew {
+    @include nunito-300-35;
+    line-height: 1.4;
+    margin-bottom: 2.5vw;
+}
+
+.textNew {
+    margin-top: 2vw;
+    @include nunito-300-35;
+    margin-right: 0.8vw;
+}
+
+@media (max-width: 950px) {
     .text {
-        @include nunito-400-35;
+        @include nunito-300-30;
+        width: 60%;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 460px)  {
+    .text {
+        @include nunito-300-35;
+        width: 70%;
     }
 
     .ctatext {
         @include nunito-400-40;
     }
 
-    .text {
-        width: 55%;
+    .paragraphLast {
+        display: none;
     }
+
+    .paragraphNew {
+        display: inline-block;
+    }
+
 };
 
 @media (max-width: 560px) {
-    .text {
-        @include nunito-400-40;
+    .text, .textNew, .paragraphNew {
+        @include nunito-300-40;
     }
 
     .ctatext {
         @include nunito-400-50;
+    }
+
+    .text {
+        width: 80%;
     }
 };
 
 @media (max-width: 460px) {
-    .text {
+    .text, .textNew {
         @include nunito-400-50;
         width: 100%;
+    }
+
+    .text {
+        margin-top: 4vw;
     }
 
     .ctatext {
@@ -67,6 +103,15 @@
     }
 
     .photo {
+        width: 90%;
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .paragraphNew {
         display: none;
     }
 };
