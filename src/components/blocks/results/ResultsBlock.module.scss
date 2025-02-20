@@ -80,26 +80,3 @@
     justify-content: center;
   }
 }
-
-/* Десктоп */
-@media (min-width: 1024px) {
-  .resultsBlock {
-    padding: 4vw 0;
-  }
-
-  .images {
-    gap: 1vw; 
-  }
-
-  .imageItem {
-    width: 22vw; 
-  }
-
-  .imageTitle {
-    margin-top: 1vw; //
-  }
-
-  .description {
-    margin-top: 3vw;
-  }
-}
