@@ -157,10 +157,6 @@
     max-width: 100%;
   }
 
-  .arrowWrapper {
-    top: 40%;  
-  }
-
   .cardTitle {
     margin-top: 2vw; /* Немного увеличиваем отступ */
   }
@@ -214,11 +210,7 @@
   }
 
   .arrow {
-    width: 5vw; 
-  }
-
-  .arrowWrapper {
-    top: 40%;  // Стрелки будут немного выше на мобильных устройствах
+    display: none;
   }
 
   .btnWrap {
