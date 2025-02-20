@@ -6,8 +6,8 @@ import training from '../../../assets/videos/video.mp4';
 const VideoBlockMobile = () => {
     return (
         <div className={style.videoContainer}>
-            <div className={style.video}>
-                <video width="90%" controls>
+            <div className={style.videoBlock}>
+                <video controls className={style.video}>
                     <source src={training} type="video/mp4" />
                     Ваш браузер не поддерживает видео.
                 </video>
