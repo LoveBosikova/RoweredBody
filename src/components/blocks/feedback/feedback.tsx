@@ -105,51 +105,6 @@ function Feedback () {
                     <img className={style.img} src={feedback9} alt="" />
                 </div>
             </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback10} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback11} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback12} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback13} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback14} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback15} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback16} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback17} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback18} alt="" />
-                </div>
-            </SwiperSlide>
         </Swiper>
             </div>
             <div className={style.swiperWrap}>
@@ -184,51 +139,6 @@ function Feedback () {
             pagination={true}
             className={style.swiper}
         >
-                        <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback1} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback2} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback3} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback4} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback5} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback6} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback7} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback8} alt="" />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className={style.slide}>
-                <div className={style.slideWrap}>
-                    <img className={style.img} src={feedback9} alt="" />
-                </div>
-            </SwiperSlide>
             <SwiperSlide className={style.slide}>
                 <div className={style.slideWrap}>
                     <img className={style.img} src={feedback10} alt="" />
