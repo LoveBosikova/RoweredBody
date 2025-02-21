@@ -1,3 +1,4 @@
+//aboutMe.tsx
 import H2 from '../../ui/h2/h2';
 
 import aboutme from '../../../assets/photos/about-me.png';

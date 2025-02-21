@@ -1,3 +1,4 @@
+//videoBlock.tsx
 import style from './videoBlock.module.scss'; 
 import Button from '../../ui/button/button'; 
 
