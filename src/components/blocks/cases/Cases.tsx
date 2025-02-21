@@ -39,8 +39,8 @@ function Cases () {
                 >
                     {CASES.map((c) => {
                         return (
-                            <SwiperSlide className={style.slide}>
-                                <CaseCard case={c}></CaseCard>
+                            <SwiperSlide key={c.name} className={style.slide}>
+                                <CaseCard key={c.name} case={c}></CaseCard>
                             </SwiperSlide>
                         )
                     })}

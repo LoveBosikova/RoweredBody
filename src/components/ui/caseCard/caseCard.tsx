@@ -44,13 +44,13 @@ function CaseCard (props: ICaseCardProps) {
                 <div className={style.pointBefore}>
                     <p className={style.data}>{titleBefore}</p>
                     <ul>
-                        {textBefore.map((text) => <li className={style.point}>{text}</li>)}
+                        {textBefore.map((text) => <li key={text} className={style.point}>{text}</li>)}
                     </ul>
                 </div>
                 <div className={style.pointAfter}>
                     <p className={style.data}>{titleAfter}</p>
                     <ul>
-                        {textAfter.map((text) => <li className={style.point}>{text}</li>)}
+                        {textAfter.map((text) => <li key={text} className={style.point}>{text}</li>)}
                     </ul>
                 </div>
             </div>
