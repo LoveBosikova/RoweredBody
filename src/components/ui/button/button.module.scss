@@ -20,7 +20,8 @@
     white-space: nowrap;
 }
 
-@media (max-width: 767px) {
+/* Планшет */
+@media (max-width: 1023px) {
     .button {
         padding-top: 1.5vw;
         padding-bottom: 1.5vw;
@@ -28,5 +29,16 @@
 
     .text {
         @include nunito-300-61;
+    }
+}
+
+@media (max-width: 767px) {
+    .button {
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+    }
+
+    .text {
+        @include nunito-300-80;
     }
 }

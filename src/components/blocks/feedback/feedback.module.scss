@@ -14,7 +14,7 @@ padding-bottom: 10vw;
 
 .titleWrap {
     padding-bottom: 3.7vw;
-    padding-left: 6%;
+    padding-left: 4vw;
 }
 
 
@@ -22,6 +22,12 @@ padding-bottom: 10vw;
     height: auto;
     margin-bottom: 1vw;
     background-color: $back-green;
+}
+
+.swiperWrap {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .slideWrap { 

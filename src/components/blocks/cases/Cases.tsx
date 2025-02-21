@@ -14,7 +14,9 @@ function Cases () {
 
     return (
         <section className={style.cases} id='cases'>
-            <H2 text={'Результат системы InsideOut'} />
+            <div className={style.titleWrap}>
+                <H2 text={'Результат системы InsideOut'} />
+            </div>
             <div className={style.swiperWrap}>
                 <Swiper
                 effect={'coverflow'}

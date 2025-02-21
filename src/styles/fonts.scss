@@ -16,30 +16,6 @@
     font-display: swap;
     }
 
-
-// Прмер подключения кастомного шрифта
-// @font-face {
-//     font-family: 'Evolventa Bold';
-//     src: local('Evolventa-Bold'), 
-//         url('/fonts/Evolventa-Bold.ttf') format('truetype'),
-//         url('/fonts/Evolventa-Bold.otf') format('otf'),
-//         url('/fonts/Evolventa-Bold.woff') format('woff'),
-//         url('/fonts/Evolventa-Bold.svg') format("svg");
-//     font-style: normal;
-//     text-rendering: optimizeLegibility;
-//     font-display: swap;
-// }
-
-// Пример шрифта - в названии сначала идёт жирность, затем размер. Располагайте шрифты в порядке - сначала по жирности, затем по размеру шрифта
-// @mixin evolventa-700-111 {
-//     font-family: "Evolventa Bold", sans-serif;
-//     font-optical-sizing: auto;
-//     font-style: normal;
-//     line-height: normal;
-//     font-weight: 700;
-//     font-size: $font-size-111;
-// }
-
 @mixin nunito-300-21 {
     font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
@@ -200,6 +176,15 @@
     line-height: normal;
     font-weight: 300;
     font-size: $font-size-61;
+}
+
+@mixin nunito-300-80 {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 300;
+    font-size: $font-size-80;
 }
 
 @mixin nunito-500-70 {

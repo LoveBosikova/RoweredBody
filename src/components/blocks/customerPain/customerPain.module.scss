@@ -52,6 +52,21 @@
     margin-right: auto;
 }
 
+@media (max-width: 1023px) {
+
+    .painWrap {
+        height: 60vw;
+    }
+
+    .pain {
+        @include nunito-300-35;
+    }
+
+    .btnWrap {
+        width: 65%;
+    }
+}
+
 @media (max-width: 767px) {
 
     .customerPain {
@@ -75,6 +90,6 @@
     }
 
     .btnWrap {
-        width: 55%;
+        width: 65%;
     }
 }

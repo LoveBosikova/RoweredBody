@@ -158,16 +158,29 @@
   }
 
   .cardTitle {
+    @include nunito-300-45;
+
     margin-top: 2vw; /* Немного увеличиваем отступ */
   }
 
   .cardDescription {
+    @include nunito-300-35;
+
     margin-top: 2vw;
     padding-bottom: 10vw; /* Уменьшаем padding для планшетов */
   }
 
   .icon {
     display: none;
+  }
+
+  .footerText {
+    @include nunito-300-45;
+    text-align: center;
+  }
+
+  .btnWrap {
+    width: 65%;
   }
 }
 
