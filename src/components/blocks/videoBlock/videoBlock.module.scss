@@ -8,6 +8,10 @@
     margin: 0 auto;
 }
 
+.videoMobile {
+    display: none;
+}
+
 video {
     margin: 0 auto;
 }
@@ -18,11 +22,15 @@ video {
 }
 
 @media (max-width: 768px) {
-    .videoContainer {
+    .video {
         display: none;
     }
 
     .btn {
         width: 65%;
+    }
+
+    .videoMobile {
+        display: block;
     }
 };
