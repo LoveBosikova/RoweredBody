@@ -1,9 +1,11 @@
+//videoBlock.module.scss
 .videoContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
 
 video {

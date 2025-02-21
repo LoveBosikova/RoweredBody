@@ -1,3 +1,4 @@
+//aboutMe.tsx
 import H2 from '../../ui/h2/h2';
 
 import aboutme from '../../../assets/photos/about-me.png';
@@ -25,16 +26,26 @@ function AboutMe () {
                         Являюсь ведущим тренером в онлайн-клубе блогера-миллионника,
                         где единовременно тренируются 7000+ женщин.
                     </p> 
-                    <p className={style.paragraph}>
+                    <p className={style.paragraphLast}>
                         Сама дважды прошла путь восстановления от диагноза: "несостоятельность
                         мышц тазового дна и диастаза прямых мышц живота" до полного восстановления.
                     </p>
-                    <p className={style.paragraph}>
+                    <p className={style.paragraphLast}>
                         Выступала спикером на 3-дневной конференции «Фестиваль женского здоровья» 
                         и на интенсиве «Breaking БАД» от 4fresh.
                     </p>
                 </div>
             </article>
+            <div className={style.textNew}>
+                    <p className={style.paragraphNew}>
+                        Сама дважды прошла путь восстановления от диагноза: "несостоятельность
+                        мышц тазового дна и диастаза прямых мышц живота" до полного восстановления.
+                    </p>
+                    <p className={style.paragraphNew}>
+                        Выступала спикером на 3-дневной конференции «Фестиваль женского здоровья» 
+                        и на интенсиве «Breaking БАД» от 4fresh.
+                    </p>
+            </div>
         </section>
     )
 }
