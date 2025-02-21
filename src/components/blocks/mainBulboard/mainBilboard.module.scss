@@ -50,6 +50,13 @@
     padding-bottom: 15vw;
 }
 
+@media (max-width: 1024px) {
+    .btnWrap {
+        width: 45%;
+        margin-top: 4vw;
+    }
+}
+
 @media (max-width: 767px) {
     .title {
         font-size: $font-size-150;
@@ -61,7 +68,7 @@
     }
 
     .btnWrap {
-        width: 55%;
+        width: 65%;
         margin-top: 4vw;
     }
 }

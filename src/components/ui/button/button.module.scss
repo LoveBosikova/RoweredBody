@@ -25,20 +25,23 @@
     .button {
         padding-top: 1.5vw;
         padding-bottom: 1.5vw;
+        border-radius: 2rem;
+        padding-right: 1vw;
+        padding-left: 1vw;
     }
 
     .text {
-        @include nunito-300-61;
+        @include nunito-300-45;
     }
 }
 
 @media (max-width: 767px) {
     .button {
-        padding-top: 3vw;
-        padding-bottom: 3vw;
+        padding-top: 2.3vw;
+        padding-bottom: 2.3vw;
     }
 
     .text {
-        @include nunito-300-80;
+        @include nunito-300-61;
     }
 }
