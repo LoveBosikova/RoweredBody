@@ -146,7 +146,7 @@ const Programs: React.FC = () => {
 
 
         <div className={styles.btnWrap}>
-          <Button text="Позаботиться о себе сейчас" />
+          <Button text="Позаботиться о себе сейчас" link='https://t.me/Tasha_kolchik'/>
         </div>
 
         <div className={styles.footerText}>

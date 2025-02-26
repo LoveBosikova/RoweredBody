@@ -25,7 +25,7 @@ const VideoBlock = () => {
                 </video>
             </div>
             <div className={style.btn}>
-                <Button text="Бесплатная тренировка" />
+                <Button link='https://t.me/telo_v_resurse/7' text="Бесплатная тренировка" />
             </div>
         </div>
     );

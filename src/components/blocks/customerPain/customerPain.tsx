@@ -16,7 +16,7 @@ function CustomerPain () {
                 </ol>
             </article>
             <div className={style.btnWrap}>
-                <Button text={'Запись на консультацию'}></Button>
+                <Button text={'Запись на консультацию'} link='https://t.me/Tasha_kolchik'></Button>
             </div>
         </section>
     )
