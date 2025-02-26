@@ -45,8 +45,40 @@
     max-width: 100%;
 }
 
+@media (max-width: 1140px) {
+
+    .contentWrap {
+        padding-top: 16vw;
+        padding-bottom: 0vw;
+    }
+
+    .linksWrap {
+        flex-wrap: wrap;
+    }
+
+    .linkWrap {
+        width: 30%;
+        padding-bottom: 2vw;
+    }
+
+    .link {
+        @include nunito-300-35;
+    }
+};
+
 @media (max-width: 768px) {
     .link {
         @include nunito-300-35;
+    }
+};
+
+@media (max-width: 560px) {
+
+    .linkWrap {
+        padding-bottom: 2.5vw;
+        margin-top: 2vw;
+    }
+    .link {
+        font-size: 3.5vw;
     }
 };

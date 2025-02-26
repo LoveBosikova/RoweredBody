@@ -7,9 +7,23 @@ function MainBilboard () {
 
     return (
         <section className={style.mainBilboard}>
-            <div className={style.backImg}>
+            <picture className={style.backImg} >
+                <source
+                    media="(max-width: 767px)"
+                    srcSet="/billboard-main-mobile.png 767w"
+                    sizes="720px"
+                />
+                <source
+                    media="(min-width: 767px)"
+                    srcSet="/billboard-main.png 767w"
+                    sizes="1140px"
+                />
+                <source
+                    srcSet="/billboard-main.png 767w"
+                    sizes="776px"
+                />
                 <img className={style.img} src={back} alt='' />
-            </div>
+            </picture>
             <div className={style.contentWrap}>
                 <h1 className={style.title}>Тело в ресурсе</h1>
                 <div className={style.btnWrap}>
