@@ -42,20 +42,6 @@ const Programs: React.FC = () => {
 
       <div className={styles.cards}>
         <div className={styles.cardContainer}>
-
-        <div className={styles.cardMobile}>
-            <img
-              src={programs5} 
-              alt="Фитнес-кэмп в горах и на море"
-              className={styles.image}
-            />
-            <h3 className={styles.cardTitle}>
-              Фитнес-кэмп в горах и на море
-            </h3>
-            <p className={styles.cardDescription}>
-            7 дней активного отдыха в горах и на море: уникальные тренировки, треккинг, сапы и волшебные закаты и рассветы!
-            </p>
-          </div>
           
           {/* Первая карточка */}
           <div className={styles.card}>
@@ -78,6 +64,9 @@ const Programs: React.FC = () => {
             <p className={styles.cardDescription}>
               {relaxationText}
             </p>
+            <div className={styles.btnMobile}>
+              <Button text='Записаться' link='https://t.me/Tasha_kolchik'/>
+            </div>
           </div>
 
           <div className={styles.icon}>
@@ -98,6 +87,9 @@ const Programs: React.FC = () => {
               и самостоятельным занятиям, проверка техники, групповая динамика, а общий чат станет местом 
               для вопросов и мотивации. Записи занятий всегда под рукой.
             </p>
+            <div className={styles.btnMobile}>
+              <Button text='Записаться' link='https://t.me/Tasha_kolchik'/>
+            </div>
           </div>
 
           <div className={styles.icon}>
@@ -125,6 +117,9 @@ const Programs: React.FC = () => {
             <p className={styles.cardDescription}>
               {fitnessCampText}
             </p>
+            <div className={styles.btnMobile}>
+              <Button text='Записаться' link='https://t.me/Tasha_kolchik'/>
+            </div>
           </div>
         </div>
 
@@ -142,7 +137,27 @@ const Programs: React.FC = () => {
               укрепить тело и восстановить физическое и ментальное здоровье. Вас ждут упражнения для улучшения мобильности 
               и растяжка, практики для снятия напряжения и для глубокого расслабления.
             </p>
-          </div>
+            <div className={styles.btnMobile}>
+              <Button text='Записаться' link='https://t.me/Tasha_kolchik'/>
+            </div>
+        </div>
+
+        <div className={styles.cardMobile}>
+            <img
+              src={programs5} 
+              alt="Фитнес-кэмп в горах и на море"
+              className={styles.image}
+            />
+            <h3 className={styles.cardTitle}>
+              Фитнес-кэмп в горах и на море
+            </h3>
+            <p className={styles.cardDescription}>
+            7 дней активного отдыха в горах и на море: уникальные тренировки, треккинг, сапы и волшебные закаты и рассветы!
+            </p>
+            <div className={styles.btnMobile}>
+              <Button text='Записаться' link='https://t.me/Tasha_kolchik'/>
+            </div>
+        </div>
 
 
         <div className={styles.btnWrap}>
