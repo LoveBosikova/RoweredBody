@@ -17,6 +17,10 @@
     margin-right: auto;
 }
 
+.slide {
+    height: auto;
+}
+
 .img {
     width: 100%;
     max-width: 100%;
@@ -43,12 +47,12 @@
 @media (max-width: 768px) {
     .btnPrev,
     .btnNext {
-        width: 9vw;
+        width: 14vw;
     }
 
     .btnsWrap {
-        bottom: 1%;
-        right: 5%;
-        gap: 2vw;
+        bottom: -4%;
+        right: 4%;
+        gap: 1vw;
     }
 }
